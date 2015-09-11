@@ -31,8 +31,30 @@ TIM14: OneWire
 #include "DS18B20.h"
 #include "encoder.h"
 #include "Button.h"
+#include "eeprom.h"
 
-void SystickInit();
+
+#define EE_DATA_ADDRESS_CAN_LOW      0x1000
+#define EE_DATA_ADDRESS_CAN_HIGH     0x1001
+#define EE_DATA_ADDRESS_DIFF_COL_SP  0x1002
+#define EE_DATA_ADDRESS_HYST_COL_SP  0x1003
+#define EE_DATA_ADDRESS_TON_SP       0x1004
+#define EE_DATA_ADDRESS_TOFF_SP      0x1005
+#define EE_DATA_ADDRESS_TON_UMW      0x1006
+#define EE_DATA_ADDRESS_TOFF_UMW     0x1007
+
+/* Virtual address defined by the user: 0xFFFF value is prohibited */
+uint16_t VirtAddVarTab[NB_OF_VAR] =
+{
+    EE_DATA_ADDRESS_CAN_LOW,
+    EE_DATA_ADDRESS_CAN_HIGH,
+    EE_DATA_ADDRESS_DIFF_COL_SP,
+    EE_DATA_ADDRESS_HYST_COL_SP,
+    EE_DATA_ADDRESS_TON_SP,
+    EE_DATA_ADDRESS_TOFF_SP,
+    EE_DATA_ADDRESS_TON_UMW,
+    EE_DATA_ADDRESS_TOFF_UMW
+};
 
 typedef struct
 {
@@ -114,9 +136,32 @@ volatile uint32_t flags = 0;
 
 volatile uint32_t lcd_timeout = 0;
 
+void SystickInit();
+void storeSettings(settings_t* settings);
+void readSettings(settings_t* settings);
+
 int main(void)
 {
     SystickInit();
+
+    FLASH_Unlock();
+    EE_Init();
+    uint16_t data = 0;
+
+    settings_t settings;
+    settings.can_id = 0x40;
+    settings.diff_col_sp = 3;
+    settings.hyst_col_sp = 1;
+    settings.t_off_sp_lad = 65;
+    settings.t_off_umw = 75;
+    settings.t_on_sp_lad = 70;
+    settings.t_on_umw = 80;
+
+    if (EE_ReadVariable(VirtAddVarTab[EE_DATA_ADDRESS_CAN_HIGH], &data))
+    {
+        // variable bisher nicht bekannt
+        storeSettings(&settings);
+    }
 
     // 5V EN
     RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOA, ENABLE);
@@ -211,14 +256,7 @@ int main(void)
     menue_points_t actual_menue = MENUE_210; // Standardmenü
     int32_t temp[3] = {0};
 
-    settings_t settings;
-    settings.can_id = 0x40;
-    settings.diff_col_sp = 3;
-    settings.hyst_col_sp = 1;
-    settings.t_off_sp_lad = 65;
-    settings.t_off_umw = 75;
-    settings.t_on_sp_lad = 70;
-    settings.t_on_umw = 80;
+    readSettings(&settings);
 
     flags |= FLAG_MENU_UPD;
 
@@ -410,6 +448,11 @@ int main(void)
         if (flags & (FLAG_BTN_OK))
         {
             flags &= ~FLAG_BTN_OK;
+            if (actual_menue == MENUE_10)
+            {
+                // zurück aus Einstellungsmenü -> Einstellungen speichern
+                storeSettings(&settings);
+            }
             actual_menue = menue_points[actual_menue].menue_ok;
             flags |= FLAG_MENU_UPD;
         }
@@ -488,6 +531,55 @@ void SysTick_Handler(void)
         lcd_timeout++;
     }
 
+}
+
+void storeSettings(settings_t* new_settings)
+{
+    settings_t old_settings;
+    readSettings(&old_settings);
+
+    if (old_settings.can_id != new_settings->can_id)
+    {
+        EE_WriteVariable(VirtAddVarTab[EE_DATA_ADDRESS_CAN_LOW], (uint16_t)(new_settings->can_id & 0xFFFF));
+        EE_WriteVariable(VirtAddVarTab[EE_DATA_ADDRESS_CAN_HIGH], (uint16_t)((new_settings->can_id >> 16) & 0xFFFF));
+    }
+    if (old_settings.diff_col_sp != new_settings->diff_col_sp)
+        EE_WriteVariable(VirtAddVarTab[EE_DATA_ADDRESS_DIFF_COL_SP], (uint16_t)new_settings->diff_col_sp);
+
+    if (old_settings.hyst_col_sp != new_settings->hyst_col_sp)
+        EE_WriteVariable(VirtAddVarTab[EE_DATA_ADDRESS_HYST_COL_SP], (uint16_t)new_settings->hyst_col_sp);
+
+    if (old_settings.t_off_sp_lad != new_settings->t_off_sp_lad)
+        EE_WriteVariable(VirtAddVarTab[EE_DATA_ADDRESS_TOFF_SP], (uint16_t)new_settings->t_off_sp_lad);
+
+    if (old_settings.t_off_umw != new_settings->t_off_umw)
+        EE_WriteVariable(VirtAddVarTab[EE_DATA_ADDRESS_TOFF_UMW], (uint16_t)new_settings->t_off_umw);
+
+    if (old_settings.t_on_sp_lad != new_settings->t_on_sp_lad)
+        EE_WriteVariable(VirtAddVarTab[EE_DATA_ADDRESS_TON_SP], (uint16_t)new_settings->t_on_sp_lad);
+
+    if (old_settings.t_on_umw != new_settings->t_on_umw)
+        EE_WriteVariable(VirtAddVarTab[EE_DATA_ADDRESS_TON_UMW], (uint16_t)new_settings->t_on_umw);
+}
+
+void readSettings(settings_t* settings)
+{
+    uint16_t var1, var2;
+    EE_ReadVariable(VirtAddVarTab[EE_DATA_ADDRESS_CAN_HIGH], &var1);
+    EE_ReadVariable(VirtAddVarTab[EE_DATA_ADDRESS_CAN_LOW], &var2);
+    settings->can_id = (uint32_t)(var1 << 16) | var2;
+    EE_ReadVariable(VirtAddVarTab[EE_DATA_ADDRESS_DIFF_COL_SP], &var1);
+    settings->diff_col_sp = (int16_t)var1;
+    EE_ReadVariable(VirtAddVarTab[EE_DATA_ADDRESS_HYST_COL_SP], &var1);
+    settings->hyst_col_sp = (int16_t)var1;
+    EE_ReadVariable(VirtAddVarTab[EE_DATA_ADDRESS_TOFF_SP], &var1);
+    settings->t_off_sp_lad = (int16_t)var1;
+    EE_ReadVariable(VirtAddVarTab[EE_DATA_ADDRESS_TOFF_UMW], &var1);
+    settings->t_off_umw = (int16_t)var1;
+    EE_ReadVariable(VirtAddVarTab[EE_DATA_ADDRESS_TON_SP], &var1);
+    settings->t_on_sp_lad = (int16_t)var1;
+    EE_ReadVariable(VirtAddVarTab[EE_DATA_ADDRESS_TON_UMW], &var1);
+    settings->t_on_umw = (int16_t)var1;
 }
 
 /*void HardFault_Handler()

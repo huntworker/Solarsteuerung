@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <EmBlocks_project_file>
-	<EmBlocksVersion release="2.20" revision="1" />
+	<EmBlocksVersion release="2.30" revision="1" />
 	<FileVersion major="1" minor="0" />
 	<Project>
 		<Option title="Solarsteuerung" />
@@ -153,6 +153,7 @@
 		<Unit filename="inc\Button.h" />
 		<Unit filename="inc\DS18B20.h" />
 		<Unit filename="inc\HD44780.h" />
+		<Unit filename="inc\eeprom.h" />
 		<Unit filename="inc\encoder.h" />
 		<Unit filename="inc\stm32f37x.h" />
 		<Unit filename="inc\stm32f37x_conf.h" />
@@ -165,6 +166,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src\HD44780.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\eeprom.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src\encoder.c">

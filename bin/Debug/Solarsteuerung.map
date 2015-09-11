@@ -87,8 +87,6 @@ Discarded input sections
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_adc.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_adc.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_adc.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_adc.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_adc.o
  .text          0x00000000        0x0 obj\debug\spl\src\stm32f37x_adc.o
  .data          0x00000000        0x0 obj\debug\spl\src\stm32f37x_adc.o
  .bss           0x00000000        0x0 obj\debug\spl\src\stm32f37x_adc.o
@@ -163,21 +161,19 @@ Discarded input sections
                 0x00000000       0x38 obj\debug\spl\src\stm32f37x_adc.o
  .text.ADC_GetResetCalibrationStatus
                 0x00000000       0x38 obj\debug\spl\src\stm32f37x_adc.o
- .debug_info    0x00000000      0xc3b obj\debug\spl\src\stm32f37x_adc.o
+ .debug_info    0x00000000      0xc67 obj\debug\spl\src\stm32f37x_adc.o
  .debug_abbrev  0x00000000      0x185 obj\debug\spl\src\stm32f37x_adc.o
  .debug_loc     0x00000000      0x7e0 obj\debug\spl\src\stm32f37x_adc.o
  .debug_aranges
                 0x00000000      0x138 obj\debug\spl\src\stm32f37x_adc.o
  .debug_ranges  0x00000000      0x128 obj\debug\spl\src\stm32f37x_adc.o
- .debug_macro   0x00000000      0x1c3 obj\debug\spl\src\stm32f37x_adc.o
+ .debug_macro   0x00000000      0x1a1 obj\debug\spl\src\stm32f37x_adc.o
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_adc.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_adc.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_adc.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_adc.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_adc.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_adc.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_adc.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_adc.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_adc.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_adc.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_adc.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_adc.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_adc.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_adc.o
@@ -206,14 +202,12 @@ Discarded input sections
  .debug_macro   0x00000000       0x88 obj\debug\spl\src\stm32f37x_adc.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_adc.o
  .debug_macro   0x00000000      0x257 obj\debug\spl\src\stm32f37x_adc.o
- .debug_line    0x00000000      0x7f4 obj\debug\spl\src\stm32f37x_adc.o
- .debug_str     0x00000000    0x48757 obj\debug\spl\src\stm32f37x_adc.o
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_adc.o
+ .debug_line    0x00000000      0x7d9 obj\debug\spl\src\stm32f37x_adc.o
+ .debug_str     0x00000000    0x485b1 obj\debug\spl\src\stm32f37x_adc.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_adc.o
  .ARM.attributes
                 0x00000000       0x33 obj\debug\spl\src\stm32f37x_adc.o
  .debug_frame   0x00000000      0x404 obj\debug\spl\src\stm32f37x_adc.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_can.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_can.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_can.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_can.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_can.o
@@ -301,21 +295,19 @@ Discarded input sections
                 0x00000000       0xfc obj\debug\spl\src\stm32f37x_can.o
  .text.CheckITStatus
                 0x00000000       0x38 obj\debug\spl\src\stm32f37x_can.o
- .debug_info    0x00000000      0xc7c obj\debug\spl\src\stm32f37x_can.o
+ .debug_info    0x00000000      0xca8 obj\debug\spl\src\stm32f37x_can.o
  .debug_abbrev  0x00000000      0x1dc obj\debug\spl\src\stm32f37x_can.o
  .debug_loc     0x00000000      0x578 obj\debug\spl\src\stm32f37x_can.o
  .debug_aranges
                 0x00000000       0xe0 obj\debug\spl\src\stm32f37x_can.o
  .debug_ranges  0x00000000       0xd0 obj\debug\spl\src\stm32f37x_can.o
- .debug_macro   0x00000000      0x1f9 obj\debug\spl\src\stm32f37x_can.o
+ .debug_macro   0x00000000      0x1d7 obj\debug\spl\src\stm32f37x_can.o
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_can.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_can.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_can.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_can.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_can.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_can.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_can.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_can.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_can.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_can.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_can.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_can.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_can.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_can.o
@@ -344,14 +336,12 @@ Discarded input sections
  .debug_macro   0x00000000       0x88 obj\debug\spl\src\stm32f37x_can.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_can.o
  .debug_macro   0x00000000      0x3c9 obj\debug\spl\src\stm32f37x_can.o
- .debug_line    0x00000000      0x830 obj\debug\spl\src\stm32f37x_can.o
- .debug_str     0x00000000    0x488c8 obj\debug\spl\src\stm32f37x_can.o
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_can.o
+ .debug_line    0x00000000      0x815 obj\debug\spl\src\stm32f37x_can.o
+ .debug_str     0x00000000    0x48722 obj\debug\spl\src\stm32f37x_can.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_can.o
  .ARM.attributes
                 0x00000000       0x33 obj\debug\spl\src\stm32f37x_can.o
  .debug_frame   0x00000000      0x2d4 obj\debug\spl\src\stm32f37x_can.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_cec.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_cec.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_cec.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_cec.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_cec.o
@@ -420,21 +410,19 @@ Discarded input sections
                 0x00000000       0x5c obj\debug\spl\src\stm32f37x_cec.o
  .text.CEC_ClearITPendingBit
                 0x00000000       0x20 obj\debug\spl\src\stm32f37x_cec.o
- .debug_info    0x00000000      0x4a2 obj\debug\spl\src\stm32f37x_cec.o
+ .debug_info    0x00000000      0x4ce obj\debug\spl\src\stm32f37x_cec.o
  .debug_abbrev  0x00000000      0x1b5 obj\debug\spl\src\stm32f37x_cec.o
  .debug_loc     0x00000000      0x344 obj\debug\spl\src\stm32f37x_cec.o
  .debug_aranges
                 0x00000000       0x98 obj\debug\spl\src\stm32f37x_cec.o
  .debug_ranges  0x00000000       0x88 obj\debug\spl\src\stm32f37x_cec.o
- .debug_macro   0x00000000      0x1f6 obj\debug\spl\src\stm32f37x_cec.o
+ .debug_macro   0x00000000      0x1d4 obj\debug\spl\src\stm32f37x_cec.o
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_cec.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_cec.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_cec.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_cec.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_cec.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_cec.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_cec.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_cec.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_cec.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_cec.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_cec.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_cec.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_cec.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_cec.o
@@ -463,14 +451,12 @@ Discarded input sections
  .debug_macro   0x00000000       0x88 obj\debug\spl\src\stm32f37x_cec.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_cec.o
  .debug_macro   0x00000000      0x18b obj\debug\spl\src\stm32f37x_cec.o
- .debug_line    0x00000000      0x60f obj\debug\spl\src\stm32f37x_cec.o
- .debug_str     0x00000000    0x4859f obj\debug\spl\src\stm32f37x_cec.o
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_cec.o
+ .debug_line    0x00000000      0x5f4 obj\debug\spl\src\stm32f37x_cec.o
+ .debug_str     0x00000000    0x483f9 obj\debug\spl\src\stm32f37x_cec.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_cec.o
  .ARM.attributes
                 0x00000000       0x33 obj\debug\spl\src\stm32f37x_cec.o
  .debug_frame   0x00000000      0x1c0 obj\debug\spl\src\stm32f37x_cec.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_comp.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_comp.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_comp.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_comp.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_comp.o
@@ -524,21 +510,19 @@ Discarded input sections
                 0x00000000       0x4c obj\debug\spl\src\stm32f37x_comp.o
  .text.COMP_LockConfig
                 0x00000000       0x34 obj\debug\spl\src\stm32f37x_comp.o
- .debug_info    0x00000000      0x2c8 obj\debug\spl\src\stm32f37x_comp.o
+ .debug_info    0x00000000      0x2de obj\debug\spl\src\stm32f37x_comp.o
  .debug_abbrev  0x00000000      0x15c obj\debug\spl\src\stm32f37x_comp.o
  .debug_loc     0x00000000      0x1b4 obj\debug\spl\src\stm32f37x_comp.o
  .debug_aranges
                 0x00000000       0x58 obj\debug\spl\src\stm32f37x_comp.o
  .debug_ranges  0x00000000       0x48 obj\debug\spl\src\stm32f37x_comp.o
- .debug_macro   0x00000000      0x1ab obj\debug\spl\src\stm32f37x_comp.o
+ .debug_macro   0x00000000      0x189 obj\debug\spl\src\stm32f37x_comp.o
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_comp.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_comp.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_comp.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_comp.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_comp.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_comp.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_comp.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_comp.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_comp.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_comp.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_comp.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_comp.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_comp.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_comp.o
@@ -567,14 +551,12 @@ Discarded input sections
  .debug_macro   0x00000000       0x88 obj\debug\spl\src\stm32f37x_comp.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_comp.o
  .debug_macro   0x00000000      0x105 obj\debug\spl\src\stm32f37x_comp.o
- .debug_line    0x00000000      0x570 obj\debug\spl\src\stm32f37x_comp.o
- .debug_str     0x00000000    0x48292 obj\debug\spl\src\stm32f37x_comp.o
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_comp.o
+ .debug_line    0x00000000      0x555 obj\debug\spl\src\stm32f37x_comp.o
+ .debug_str     0x00000000    0x480d7 obj\debug\spl\src\stm32f37x_comp.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_comp.o
  .ARM.attributes
                 0x00000000       0x33 obj\debug\spl\src\stm32f37x_comp.o
  .debug_frame   0x00000000       0xec obj\debug\spl\src\stm32f37x_comp.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_crc.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_crc.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_crc.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_crc.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_crc.o
@@ -640,21 +622,19 @@ Discarded input sections
                 0x00000000       0x20 obj\debug\spl\src\stm32f37x_crc.o
  .text.CRC_GetIDRegister
                 0x00000000       0x18 obj\debug\spl\src\stm32f37x_crc.o
- .debug_info    0x00000000      0x3c6 obj\debug\spl\src\stm32f37x_crc.o
+ .debug_info    0x00000000      0x3f2 obj\debug\spl\src\stm32f37x_crc.o
  .debug_abbrev  0x00000000      0x185 obj\debug\spl\src\stm32f37x_crc.o
  .debug_loc     0x00000000      0x2e0 obj\debug\spl\src\stm32f37x_crc.o
  .debug_aranges
                 0x00000000       0x88 obj\debug\spl\src\stm32f37x_crc.o
  .debug_ranges  0x00000000       0x78 obj\debug\spl\src\stm32f37x_crc.o
- .debug_macro   0x00000000      0x1a5 obj\debug\spl\src\stm32f37x_crc.o
+ .debug_macro   0x00000000      0x183 obj\debug\spl\src\stm32f37x_crc.o
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_crc.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_crc.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_crc.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_crc.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_crc.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_crc.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_crc.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_crc.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_crc.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_crc.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_crc.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_crc.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_crc.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_crc.o
@@ -683,14 +663,12 @@ Discarded input sections
  .debug_macro   0x00000000       0x88 obj\debug\spl\src\stm32f37x_crc.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_crc.o
  .debug_macro   0x00000000       0x40 obj\debug\spl\src\stm32f37x_crc.o
- .debug_line    0x00000000      0x5e3 obj\debug\spl\src\stm32f37x_crc.o
- .debug_str     0x00000000    0x48306 obj\debug\spl\src\stm32f37x_crc.o
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_crc.o
+ .debug_line    0x00000000      0x5c8 obj\debug\spl\src\stm32f37x_crc.o
+ .debug_str     0x00000000    0x48160 obj\debug\spl\src\stm32f37x_crc.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_crc.o
  .ARM.attributes
                 0x00000000       0x33 obj\debug\spl\src\stm32f37x_crc.o
  .debug_frame   0x00000000      0x188 obj\debug\spl\src\stm32f37x_crc.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_dac.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_dac.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_dac.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_dac.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_dac.o
@@ -761,21 +739,19 @@ Discarded input sections
                 0x00000000       0x5c obj\debug\spl\src\stm32f37x_dac.o
  .text.DAC_ClearITPendingBit
                 0x00000000       0x24 obj\debug\spl\src\stm32f37x_dac.o
- .debug_info    0x00000000      0x791 obj\debug\spl\src\stm32f37x_dac.o
+ .debug_info    0x00000000      0x7bd obj\debug\spl\src\stm32f37x_dac.o
  .debug_abbrev  0x00000000      0x185 obj\debug\spl\src\stm32f37x_dac.o
  .debug_loc     0x00000000      0x3b8 obj\debug\spl\src\stm32f37x_dac.o
  .debug_aranges
                 0x00000000       0xa0 obj\debug\spl\src\stm32f37x_dac.o
  .debug_ranges  0x00000000       0x90 obj\debug\spl\src\stm32f37x_dac.o
- .debug_macro   0x00000000      0x1d6 obj\debug\spl\src\stm32f37x_dac.o
+ .debug_macro   0x00000000      0x1b4 obj\debug\spl\src\stm32f37x_dac.o
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_dac.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_dac.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_dac.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_dac.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_dac.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_dac.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_dac.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_dac.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_dac.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_dac.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_dac.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_dac.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_dac.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_dac.o
@@ -804,14 +780,12 @@ Discarded input sections
  .debug_macro   0x00000000       0x88 obj\debug\spl\src\stm32f37x_dac.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_dac.o
  .debug_macro   0x00000000      0x197 obj\debug\spl\src\stm32f37x_dac.o
- .debug_line    0x00000000      0x635 obj\debug\spl\src\stm32f37x_dac.o
- .debug_str     0x00000000    0x484ff obj\debug\spl\src\stm32f37x_dac.o
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_dac.o
+ .debug_line    0x00000000      0x61a obj\debug\spl\src\stm32f37x_dac.o
+ .debug_str     0x00000000    0x48359 obj\debug\spl\src\stm32f37x_dac.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_dac.o
  .ARM.attributes
                 0x00000000       0x33 obj\debug\spl\src\stm32f37x_dac.o
  .debug_frame   0x00000000      0x1f0 obj\debug\spl\src\stm32f37x_dac.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_dbgmcu.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_dbgmcu.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_dbgmcu.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_dbgmcu.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_dbgmcu.o
@@ -859,21 +833,19 @@ Discarded input sections
                 0x00000000       0x54 obj\debug\spl\src\stm32f37x_dbgmcu.o
  .text.DBGMCU_APB2PeriphConfig
                 0x00000000       0x54 obj\debug\spl\src\stm32f37x_dbgmcu.o
- .debug_info    0x00000000      0x1f5 obj\debug\spl\src\stm32f37x_dbgmcu.o
+ .debug_info    0x00000000      0x20b obj\debug\spl\src\stm32f37x_dbgmcu.o
  .debug_abbrev  0x00000000       0xe5 obj\debug\spl\src\stm32f37x_dbgmcu.o
  .debug_loc     0x00000000      0x100 obj\debug\spl\src\stm32f37x_dbgmcu.o
  .debug_aranges
                 0x00000000       0x40 obj\debug\spl\src\stm32f37x_dbgmcu.o
  .debug_ranges  0x00000000       0x30 obj\debug\spl\src\stm32f37x_dbgmcu.o
- .debug_macro   0x00000000      0x1ab obj\debug\spl\src\stm32f37x_dbgmcu.o
+ .debug_macro   0x00000000      0x189 obj\debug\spl\src\stm32f37x_dbgmcu.o
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_dbgmcu.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_dbgmcu.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_dbgmcu.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_dbgmcu.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_dbgmcu.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_dbgmcu.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_dbgmcu.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_dbgmcu.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_dbgmcu.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_dbgmcu.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_dbgmcu.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_dbgmcu.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_dbgmcu.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_dbgmcu.o
@@ -902,14 +874,12 @@ Discarded input sections
  .debug_macro   0x00000000       0x88 obj\debug\spl\src\stm32f37x_dbgmcu.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_dbgmcu.o
  .debug_macro   0x00000000       0xa0 obj\debug\spl\src\stm32f37x_dbgmcu.o
- .debug_line    0x00000000      0x526 obj\debug\spl\src\stm32f37x_dbgmcu.o
- .debug_str     0x00000000    0x4821c obj\debug\spl\src\stm32f37x_dbgmcu.o
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_dbgmcu.o
+ .debug_line    0x00000000      0x50b obj\debug\spl\src\stm32f37x_dbgmcu.o
+ .debug_str     0x00000000    0x48061 obj\debug\spl\src\stm32f37x_dbgmcu.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_dbgmcu.o
  .ARM.attributes
                 0x00000000       0x33 obj\debug\spl\src\stm32f37x_dbgmcu.o
  .debug_frame   0x00000000       0x94 obj\debug\spl\src\stm32f37x_dbgmcu.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_dma.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_dma.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_dma.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_dma.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_dma.o
@@ -968,21 +938,19 @@ Discarded input sections
                 0x00000000       0x60 obj\debug\spl\src\stm32f37x_dma.o
  .text.DMA_ClearITPendingBit
                 0x00000000       0x38 obj\debug\spl\src\stm32f37x_dma.o
- .debug_info    0x00000000      0x4b9 obj\debug\spl\src\stm32f37x_dma.o
+ .debug_info    0x00000000      0x4da obj\debug\spl\src\stm32f37x_dma.o
  .debug_abbrev  0x00000000      0x15c obj\debug\spl\src\stm32f37x_dma.o
  .debug_loc     0x00000000      0x268 obj\debug\spl\src\stm32f37x_dma.o
  .debug_aranges
                 0x00000000       0x70 obj\debug\spl\src\stm32f37x_dma.o
  .debug_ranges  0x00000000       0x60 obj\debug\spl\src\stm32f37x_dma.o
- .debug_macro   0x00000000      0x1f9 obj\debug\spl\src\stm32f37x_dma.o
+ .debug_macro   0x00000000      0x1d7 obj\debug\spl\src\stm32f37x_dma.o
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_dma.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_dma.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_dma.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_dma.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_dma.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_dma.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_dma.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_dma.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_dma.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_dma.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_dma.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_dma.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_dma.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_dma.o
@@ -1011,14 +979,12 @@ Discarded input sections
  .debug_macro   0x00000000       0x88 obj\debug\spl\src\stm32f37x_dma.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_dma.o
  .debug_macro   0x00000000      0x3a2 obj\debug\spl\src\stm32f37x_dma.o
- .debug_line    0x00000000      0x5dc obj\debug\spl\src\stm32f37x_dma.o
- .debug_str     0x00000000    0x48842 obj\debug\spl\src\stm32f37x_dma.o
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_dma.o
+ .debug_line    0x00000000      0x5c1 obj\debug\spl\src\stm32f37x_dma.o
+ .debug_str     0x00000000    0x48692 obj\debug\spl\src\stm32f37x_dma.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_dma.o
  .ARM.attributes
                 0x00000000       0x33 obj\debug\spl\src\stm32f37x_dma.o
  .debug_frame   0x00000000      0x144 obj\debug\spl\src\stm32f37x_dma.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_exti.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_exti.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_exti.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_exti.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_exti.o
@@ -1069,11 +1035,9 @@ Discarded input sections
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_exti.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_exti.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_exti.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_exti.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_exti.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_exti.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_exti.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_exti.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_exti.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_exti.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_exti.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_exti.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_exti.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_exti.o
@@ -1135,8 +1099,6 @@ Discarded input sections
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_flash.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_flash.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_flash.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_flash.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_flash.o
  .text          0x00000000        0x0 obj\debug\spl\src\stm32f37x_flash.o
  .data          0x00000000        0x0 obj\debug\spl\src\stm32f37x_flash.o
  .bss           0x00000000        0x0 obj\debug\spl\src\stm32f37x_flash.o
@@ -1146,18 +1108,12 @@ Discarded input sections
                 0x00000000       0x4c obj\debug\spl\src\stm32f37x_flash.o
  .text.FLASH_PrefetchBufferCmd
                 0x00000000       0x4c obj\debug\spl\src\stm32f37x_flash.o
- .text.FLASH_Unlock
-                0x00000000       0x40 obj\debug\spl\src\stm32f37x_flash.o
  .text.FLASH_Lock
                 0x00000000       0x24 obj\debug\spl\src\stm32f37x_flash.o
- .text.FLASH_ErasePage
-                0x00000000       0x8c obj\debug\spl\src\stm32f37x_flash.o
  .text.FLASH_EraseAllPages
                 0x00000000       0x80 obj\debug\spl\src\stm32f37x_flash.o
  .text.FLASH_ProgramWord
                 0x00000000       0xb8 obj\debug\spl\src\stm32f37x_flash.o
- .text.FLASH_ProgramHalfWord
-                0x00000000       0x74 obj\debug\spl\src\stm32f37x_flash.o
  .text.FLASH_OB_Unlock
                 0x00000000       0x40 obj\debug\spl\src\stm32f37x_flash.o
  .text.FLASH_OB_Lock
@@ -1196,25 +1152,12 @@ Discarded input sections
                 0x00000000       0x3c obj\debug\spl\src\stm32f37x_flash.o
  .text.FLASH_ClearFlag
                 0x00000000       0x20 obj\debug\spl\src\stm32f37x_flash.o
- .text.FLASH_GetStatus
-                0x00000000       0x70 obj\debug\spl\src\stm32f37x_flash.o
- .text.FLASH_WaitForLastOperation
-                0x00000000       0x4c obj\debug\spl\src\stm32f37x_flash.o
- .debug_info    0x00000000      0x8bc obj\debug\spl\src\stm32f37x_flash.o
- .debug_abbrev  0x00000000      0x1b9 obj\debug\spl\src\stm32f37x_flash.o
- .debug_loc     0x00000000      0x63c obj\debug\spl\src\stm32f37x_flash.o
- .debug_aranges
-                0x00000000      0x108 obj\debug\spl\src\stm32f37x_flash.o
- .debug_ranges  0x00000000       0xf8 obj\debug\spl\src\stm32f37x_flash.o
- .debug_macro   0x00000000      0x1a5 obj\debug\spl\src\stm32f37x_flash.o
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_flash.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_flash.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_flash.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_flash.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_flash.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_flash.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_flash.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_flash.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_flash.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_flash.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_flash.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_flash.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_flash.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_flash.o
@@ -1242,15 +1185,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x34 obj\debug\spl\src\stm32f37x_flash.o
  .debug_macro   0x00000000       0x88 obj\debug\spl\src\stm32f37x_flash.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_flash.o
- .debug_macro   0x00000000      0x328 obj\debug\spl\src\stm32f37x_flash.o
- .debug_line    0x00000000      0x7bb obj\debug\spl\src\stm32f37x_flash.o
- .debug_str     0x00000000    0x48570 obj\debug\spl\src\stm32f37x_flash.o
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_flash.o
- .ARM.attributes
-                0x00000000       0x33 obj\debug\spl\src\stm32f37x_flash.o
- .debug_frame   0x00000000      0x378 obj\debug\spl\src\stm32f37x_flash.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_gpio.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_gpio.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_gpio.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_gpio.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_gpio.o
@@ -1305,11 +1239,9 @@ Discarded input sections
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_gpio.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_gpio.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_gpio.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_gpio.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_gpio.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_gpio.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_gpio.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_gpio.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_gpio.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_gpio.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_gpio.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_gpio.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_gpio.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_gpio.o
@@ -1337,8 +1269,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x34 obj\debug\spl\src\stm32f37x_gpio.o
  .debug_macro   0x00000000       0x88 obj\debug\spl\src\stm32f37x_gpio.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_gpio.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_i2c.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_i2c.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_i2c.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_i2c.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_i2c.o
@@ -1459,21 +1389,19 @@ Discarded input sections
                 0x00000000       0x88 obj\debug\spl\src\stm32f37x_i2c.o
  .text.I2C_ClearITPendingBit
                 0x00000000       0x1c obj\debug\spl\src\stm32f37x_i2c.o
- .debug_info    0x00000000      0xcb6 obj\debug\spl\src\stm32f37x_i2c.o
+ .debug_info    0x00000000      0xce2 obj\debug\spl\src\stm32f37x_i2c.o
  .debug_abbrev  0x00000000      0x185 obj\debug\spl\src\stm32f37x_i2c.o
  .debug_loc     0x00000000      0x930 obj\debug\spl\src\stm32f37x_i2c.o
  .debug_aranges
                 0x00000000      0x168 obj\debug\spl\src\stm32f37x_i2c.o
  .debug_ranges  0x00000000      0x158 obj\debug\spl\src\stm32f37x_i2c.o
- .debug_macro   0x00000000      0x1c3 obj\debug\spl\src\stm32f37x_i2c.o
+ .debug_macro   0x00000000      0x1a1 obj\debug\spl\src\stm32f37x_i2c.o
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_i2c.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_i2c.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_i2c.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_i2c.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_i2c.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_i2c.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_i2c.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_i2c.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_i2c.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_i2c.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_i2c.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_i2c.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_i2c.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_i2c.o
@@ -1502,14 +1430,12 @@ Discarded input sections
  .debug_macro   0x00000000       0x88 obj\debug\spl\src\stm32f37x_i2c.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_i2c.o
  .debug_macro   0x00000000      0x294 obj\debug\spl\src\stm32f37x_i2c.o
- .debug_line    0x00000000      0x847 obj\debug\spl\src\stm32f37x_i2c.o
- .debug_str     0x00000000    0x486b1 obj\debug\spl\src\stm32f37x_i2c.o
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_i2c.o
+ .debug_line    0x00000000      0x82c obj\debug\spl\src\stm32f37x_i2c.o
+ .debug_str     0x00000000    0x4850b obj\debug\spl\src\stm32f37x_i2c.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_i2c.o
  .ARM.attributes
                 0x00000000       0x33 obj\debug\spl\src\stm32f37x_i2c.o
  .debug_frame   0x00000000      0x4ac obj\debug\spl\src\stm32f37x_i2c.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_iwdg.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_iwdg.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_iwdg.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_iwdg.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_iwdg.o
@@ -1561,21 +1487,19 @@ Discarded input sections
                 0x00000000       0x18 obj\debug\spl\src\stm32f37x_iwdg.o
  .text.IWDG_GetFlagStatus
                 0x00000000       0x40 obj\debug\spl\src\stm32f37x_iwdg.o
- .debug_info    0x00000000      0x24d obj\debug\spl\src\stm32f37x_iwdg.o
+ .debug_info    0x00000000      0x279 obj\debug\spl\src\stm32f37x_iwdg.o
  .debug_abbrev  0x00000000      0x126 obj\debug\spl\src\stm32f37x_iwdg.o
  .debug_loc     0x00000000      0x170 obj\debug\spl\src\stm32f37x_iwdg.o
  .debug_aranges
                 0x00000000       0x50 obj\debug\spl\src\stm32f37x_iwdg.o
  .debug_ranges  0x00000000       0x40 obj\debug\spl\src\stm32f37x_iwdg.o
- .debug_macro   0x00000000      0x1b1 obj\debug\spl\src\stm32f37x_iwdg.o
+ .debug_macro   0x00000000      0x18f obj\debug\spl\src\stm32f37x_iwdg.o
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_iwdg.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_iwdg.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_iwdg.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_iwdg.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_iwdg.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_iwdg.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_iwdg.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_iwdg.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_iwdg.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_iwdg.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_iwdg.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_iwdg.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_iwdg.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_iwdg.o
@@ -1604,14 +1528,12 @@ Discarded input sections
  .debug_macro   0x00000000       0x88 obj\debug\spl\src\stm32f37x_iwdg.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_iwdg.o
  .debug_macro   0x00000000       0x6a obj\debug\spl\src\stm32f37x_iwdg.o
- .debug_line    0x00000000      0x546 obj\debug\spl\src\stm32f37x_iwdg.o
- .debug_str     0x00000000    0x48271 obj\debug\spl\src\stm32f37x_iwdg.o
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_iwdg.o
+ .debug_line    0x00000000      0x52b obj\debug\spl\src\stm32f37x_iwdg.o
+ .debug_str     0x00000000    0x480cb obj\debug\spl\src\stm32f37x_iwdg.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_iwdg.o
  .ARM.attributes
                 0x00000000       0x33 obj\debug\spl\src\stm32f37x_iwdg.o
  .debug_frame   0x00000000       0xcc obj\debug\spl\src\stm32f37x_iwdg.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_misc.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_misc.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_misc.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_misc.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_misc.o
@@ -1660,11 +1582,9 @@ Discarded input sections
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_misc.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_misc.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_misc.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_misc.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_misc.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_misc.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_misc.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_misc.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_misc.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_misc.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_misc.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_misc.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_misc.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_misc.o
@@ -1726,8 +1646,6 @@ Discarded input sections
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_pwr.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_pwr.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_pwr.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_pwr.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_pwr.o
  .text          0x00000000        0x0 obj\debug\spl\src\stm32f37x_pwr.o
  .data          0x00000000        0x0 obj\debug\spl\src\stm32f37x_pwr.o
  .bss           0x00000000        0x0 obj\debug\spl\src\stm32f37x_pwr.o
@@ -1753,21 +1671,19 @@ Discarded input sections
                 0x00000000       0x3c obj\debug\spl\src\stm32f37x_pwr.o
  .text.PWR_ClearFlag
                 0x00000000       0x30 obj\debug\spl\src\stm32f37x_pwr.o
- .debug_info    0x00000000      0x55d obj\debug\spl\src\stm32f37x_pwr.o
+ .debug_info    0x00000000      0x589 obj\debug\spl\src\stm32f37x_pwr.o
  .debug_abbrev  0x00000000      0x186 obj\debug\spl\src\stm32f37x_pwr.o
  .debug_loc     0x00000000      0x250 obj\debug\spl\src\stm32f37x_pwr.o
  .debug_aranges
                 0x00000000       0x70 obj\debug\spl\src\stm32f37x_pwr.o
  .debug_ranges  0x00000000       0x60 obj\debug\spl\src\stm32f37x_pwr.o
- .debug_macro   0x00000000      0x1d5 obj\debug\spl\src\stm32f37x_pwr.o
+ .debug_macro   0x00000000      0x1b3 obj\debug\spl\src\stm32f37x_pwr.o
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_pwr.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_pwr.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_pwr.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_pwr.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_pwr.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_pwr.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_pwr.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_pwr.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_pwr.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_pwr.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_pwr.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_pwr.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_pwr.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_pwr.o
@@ -1796,14 +1712,12 @@ Discarded input sections
  .debug_macro   0x00000000       0x88 obj\debug\spl\src\stm32f37x_pwr.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_pwr.o
  .debug_macro   0x00000000       0xcd obj\debug\spl\src\stm32f37x_pwr.o
- .debug_line    0x00000000      0x5c7 obj\debug\spl\src\stm32f37x_pwr.o
- .debug_str     0x00000000    0x4845b obj\debug\spl\src\stm32f37x_pwr.o
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_pwr.o
+ .debug_line    0x00000000      0x5ac obj\debug\spl\src\stm32f37x_pwr.o
+ .debug_str     0x00000000    0x482b5 obj\debug\spl\src\stm32f37x_pwr.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_pwr.o
  .ARM.attributes
                 0x00000000       0x33 obj\debug\spl\src\stm32f37x_pwr.o
  .debug_frame   0x00000000      0x140 obj\debug\spl\src\stm32f37x_pwr.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_rcc.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_rcc.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_rcc.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_rcc.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_rcc.o
@@ -1912,11 +1826,9 @@ Discarded input sections
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_rcc.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_rcc.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_rcc.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_rcc.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_rcc.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_rcc.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_rcc.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_rcc.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_rcc.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_rcc.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_rcc.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_rcc.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_rcc.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_rcc.o
@@ -1944,8 +1856,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x34 obj\debug\spl\src\stm32f37x_rcc.o
  .debug_macro   0x00000000       0x88 obj\debug\spl\src\stm32f37x_rcc.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_rcc.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_rtc.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_rtc.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_rtc.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_rtc.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_rtc.o
@@ -2089,21 +1999,19 @@ Discarded input sections
                 0x00000000       0x44 obj\debug\spl\src\stm32f37x_rtc.o
  .text.RTC_Bcd2ToByte
                 0x00000000       0x40 obj\debug\spl\src\stm32f37x_rtc.o
- .debug_info    0x00000000     0x123c obj\debug\spl\src\stm32f37x_rtc.o
+ .debug_info    0x00000000     0x125d obj\debug\spl\src\stm32f37x_rtc.o
  .debug_abbrev  0x00000000      0x1b5 obj\debug\spl\src\stm32f37x_rtc.o
  .debug_loc     0x00000000      0xb68 obj\debug\spl\src\stm32f37x_rtc.o
  .debug_aranges
                 0x00000000      0x1c0 obj\debug\spl\src\stm32f37x_rtc.o
  .debug_ranges  0x00000000      0x1b0 obj\debug\spl\src\stm32f37x_rtc.o
- .debug_macro   0x00000000      0x1e5 obj\debug\spl\src\stm32f37x_rtc.o
+ .debug_macro   0x00000000      0x1c3 obj\debug\spl\src\stm32f37x_rtc.o
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_rtc.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_rtc.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_rtc.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_rtc.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_rtc.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_rtc.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_rtc.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_rtc.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_rtc.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_rtc.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_rtc.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_rtc.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_rtc.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_rtc.o
@@ -2132,14 +2040,12 @@ Discarded input sections
  .debug_macro   0x00000000       0x88 obj\debug\spl\src\stm32f37x_rtc.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_rtc.o
  .debug_macro   0x00000000      0x59f obj\debug\spl\src\stm32f37x_rtc.o
- .debug_line    0x00000000      0xa93 obj\debug\spl\src\stm32f37x_rtc.o
- .debug_str     0x00000000    0x48d2c obj\debug\spl\src\stm32f37x_rtc.o
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_rtc.o
+ .debug_line    0x00000000      0xa78 obj\debug\spl\src\stm32f37x_rtc.o
+ .debug_str     0x00000000    0x48b7b obj\debug\spl\src\stm32f37x_rtc.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_rtc.o
  .ARM.attributes
                 0x00000000       0x33 obj\debug\spl\src\stm32f37x_rtc.o
  .debug_frame   0x00000000      0x5f8 obj\debug\spl\src\stm32f37x_rtc.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_sdadc.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_sdadc.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_sdadc.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_sdadc.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_sdadc.o
@@ -2255,21 +2161,19 @@ Discarded input sections
                 0x00000000       0x58 obj\debug\spl\src\stm32f37x_sdadc.o
  .text.SDADC_ClearITPendingBit
                 0x00000000       0x20 obj\debug\spl\src\stm32f37x_sdadc.o
- .debug_info    0x00000000      0xc2d obj\debug\spl\src\stm32f37x_sdadc.o
+ .debug_info    0x00000000      0xc4e obj\debug\spl\src\stm32f37x_sdadc.o
  .debug_abbrev  0x00000000      0x1c0 obj\debug\spl\src\stm32f37x_sdadc.o
  .debug_loc     0x00000000      0x858 obj\debug\spl\src\stm32f37x_sdadc.o
  .debug_aranges
                 0x00000000      0x150 obj\debug\spl\src\stm32f37x_sdadc.o
  .debug_ranges  0x00000000      0x140 obj\debug\spl\src\stm32f37x_sdadc.o
- .debug_macro   0x00000000      0x1ab obj\debug\spl\src\stm32f37x_sdadc.o
+ .debug_macro   0x00000000      0x189 obj\debug\spl\src\stm32f37x_sdadc.o
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_sdadc.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_sdadc.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_sdadc.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_sdadc.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_sdadc.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_sdadc.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_sdadc.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_sdadc.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_sdadc.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_sdadc.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_sdadc.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_sdadc.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_sdadc.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_sdadc.o
@@ -2298,14 +2202,12 @@ Discarded input sections
  .debug_macro   0x00000000       0x88 obj\debug\spl\src\stm32f37x_sdadc.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_sdadc.o
  .debug_macro   0x00000000      0x27c obj\debug\spl\src\stm32f37x_sdadc.o
- .debug_line    0x00000000      0x7ec obj\debug\spl\src\stm32f37x_sdadc.o
- .debug_str     0x00000000    0x487a2 obj\debug\spl\src\stm32f37x_sdadc.o
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_sdadc.o
+ .debug_line    0x00000000      0x7d1 obj\debug\spl\src\stm32f37x_sdadc.o
+ .debug_str     0x00000000    0x485f1 obj\debug\spl\src\stm32f37x_sdadc.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_sdadc.o
  .ARM.attributes
                 0x00000000       0x33 obj\debug\spl\src\stm32f37x_sdadc.o
  .debug_frame   0x00000000      0x448 obj\debug\spl\src\stm32f37x_sdadc.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_spi.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_spi.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_spi.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_spi.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_spi.o
@@ -2403,21 +2305,19 @@ Discarded input sections
                 0x00000000       0x24 obj\debug\spl\src\stm32f37x_spi.o
  .text.SPI_I2S_GetITStatus
                 0x00000000       0x88 obj\debug\spl\src\stm32f37x_spi.o
- .debug_info    0x00000000      0xbce obj\debug\spl\src\stm32f37x_spi.o
+ .debug_info    0x00000000      0xbfa obj\debug\spl\src\stm32f37x_spi.o
  .debug_abbrev  0x00000000      0x19f obj\debug\spl\src\stm32f37x_spi.o
  .debug_loc     0x00000000      0x6ca obj\debug\spl\src\stm32f37x_spi.o
  .debug_aranges
                 0x00000000      0x110 obj\debug\spl\src\stm32f37x_spi.o
  .debug_ranges  0x00000000      0x100 obj\debug\spl\src\stm32f37x_spi.o
- .debug_macro   0x00000000      0x1bd obj\debug\spl\src\stm32f37x_spi.o
+ .debug_macro   0x00000000      0x19b obj\debug\spl\src\stm32f37x_spi.o
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_spi.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_spi.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_spi.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_spi.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_spi.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_spi.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_spi.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_spi.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_spi.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_spi.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_spi.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_spi.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_spi.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_spi.o
@@ -2446,14 +2346,12 @@ Discarded input sections
  .debug_macro   0x00000000       0x88 obj\debug\spl\src\stm32f37x_spi.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_spi.o
  .debug_macro   0x00000000      0x389 obj\debug\spl\src\stm32f37x_spi.o
- .debug_line    0x00000000      0x785 obj\debug\spl\src\stm32f37x_spi.o
- .debug_str     0x00000000    0x487a3 obj\debug\spl\src\stm32f37x_spi.o
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_spi.o
+ .debug_line    0x00000000      0x76a obj\debug\spl\src\stm32f37x_spi.o
+ .debug_str     0x00000000    0x485fd obj\debug\spl\src\stm32f37x_spi.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_spi.o
  .ARM.attributes
                 0x00000000       0x33 obj\debug\spl\src\stm32f37x_spi.o
  .debug_frame   0x00000000      0x37c obj\debug\spl\src\stm32f37x_spi.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_syscfg.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_syscfg.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_syscfg.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_syscfg.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_syscfg.o
@@ -2512,11 +2410,9 @@ Discarded input sections
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_syscfg.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_syscfg.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_syscfg.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_syscfg.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_syscfg.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_syscfg.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_syscfg.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_syscfg.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_syscfg.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_syscfg.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_syscfg.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_syscfg.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_syscfg.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_syscfg.o
@@ -2544,8 +2440,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x34 obj\debug\spl\src\stm32f37x_syscfg.o
  .debug_macro   0x00000000       0x88 obj\debug\spl\src\stm32f37x_syscfg.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_syscfg.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_tim.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_tim.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_tim.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_tim.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_tim.o
@@ -2748,11 +2642,9 @@ Discarded input sections
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_tim.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_tim.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_tim.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_tim.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_tim.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_tim.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_tim.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_tim.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_tim.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_tim.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_tim.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_tim.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_tim.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_tim.o
@@ -2780,8 +2672,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x34 obj\debug\spl\src\stm32f37x_tim.o
  .debug_macro   0x00000000       0x88 obj\debug\spl\src\stm32f37x_tim.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_tim.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_usart.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_usart.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_usart.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_usart.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_usart.o
@@ -2917,21 +2807,19 @@ Discarded input sections
                 0x00000000       0xb4 obj\debug\spl\src\stm32f37x_usart.o
  .text.USART_ClearITPendingBit
                 0x00000000       0x3c obj\debug\spl\src\stm32f37x_usart.o
- .debug_info    0x00000000      0xfbb obj\debug\spl\src\stm32f37x_usart.o
+ .debug_info    0x00000000      0xfe7 obj\debug\spl\src\stm32f37x_usart.o
  .debug_abbrev  0x00000000      0x15c obj\debug\spl\src\stm32f37x_usart.o
  .debug_loc     0x00000000      0xaba obj\debug\spl\src\stm32f37x_usart.o
  .debug_aranges
                 0x00000000      0x1a0 obj\debug\spl\src\stm32f37x_usart.o
  .debug_ranges  0x00000000      0x190 obj\debug\spl\src\stm32f37x_usart.o
- .debug_macro   0x00000000      0x1bd obj\debug\spl\src\stm32f37x_usart.o
+ .debug_macro   0x00000000      0x19b obj\debug\spl\src\stm32f37x_usart.o
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_usart.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_usart.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_usart.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_usart.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_usart.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_usart.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_usart.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_usart.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_usart.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_usart.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_usart.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_usart.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_usart.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_usart.o
@@ -2960,14 +2848,12 @@ Discarded input sections
  .debug_macro   0x00000000       0x88 obj\debug\spl\src\stm32f37x_usart.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_usart.o
  .debug_macro   0x00000000      0x341 obj\debug\spl\src\stm32f37x_usart.o
- .debug_line    0x00000000      0x8d4 obj\debug\spl\src\stm32f37x_usart.o
- .debug_str     0x00000000    0x48a94 obj\debug\spl\src\stm32f37x_usart.o
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_usart.o
+ .debug_line    0x00000000      0x8b9 obj\debug\spl\src\stm32f37x_usart.o
+ .debug_str     0x00000000    0x488ee obj\debug\spl\src\stm32f37x_usart.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_usart.o
  .ARM.attributes
                 0x00000000       0x33 obj\debug\spl\src\stm32f37x_usart.o
  .debug_frame   0x00000000      0x574 obj\debug\spl\src\stm32f37x_usart.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_wwdg.o
- .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_wwdg.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_wwdg.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_wwdg.o
  .group         0x00000000        0x8 obj\debug\spl\src\stm32f37x_wwdg.o
@@ -3021,21 +2907,19 @@ Discarded input sections
                 0x00000000       0x38 obj\debug\spl\src\stm32f37x_wwdg.o
  .text.WWDG_ClearFlag
                 0x00000000       0x18 obj\debug\spl\src\stm32f37x_wwdg.o
- .debug_info    0x00000000      0x25f obj\debug\spl\src\stm32f37x_wwdg.o
+ .debug_info    0x00000000      0x280 obj\debug\spl\src\stm32f37x_wwdg.o
  .debug_abbrev  0x00000000      0x147 obj\debug\spl\src\stm32f37x_wwdg.o
  .debug_loc     0x00000000      0x19c obj\debug\spl\src\stm32f37x_wwdg.o
  .debug_aranges
                 0x00000000       0x58 obj\debug\spl\src\stm32f37x_wwdg.o
  .debug_ranges  0x00000000       0x48 obj\debug\spl\src\stm32f37x_wwdg.o
- .debug_macro   0x00000000      0x1cf obj\debug\spl\src\stm32f37x_wwdg.o
+ .debug_macro   0x00000000      0x1ad obj\debug\spl\src\stm32f37x_wwdg.o
  .debug_macro   0x00000000      0x826 obj\debug\spl\src\stm32f37x_wwdg.o
  .debug_macro   0x00000000       0x72 obj\debug\spl\src\stm32f37x_wwdg.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_wwdg.o
- .debug_macro   0x00000000       0x3a obj\debug\spl\src\stm32f37x_wwdg.o
- .debug_macro   0x00000000       0x10 obj\debug\spl\src\stm32f37x_wwdg.o
- .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_wwdg.o
- .debug_macro   0x00000000       0xa3 obj\debug\spl\src\stm32f37x_wwdg.o
- .debug_macro   0x00000000      0x20e obj\debug\spl\src\stm32f37x_wwdg.o
+ .debug_macro   0x00000000       0x16 obj\debug\spl\src\stm32f37x_wwdg.o
+ .debug_macro   0x00000000       0x44 obj\debug\spl\src\stm32f37x_wwdg.o
+ .debug_macro   0x00000000      0x209 obj\debug\spl\src\stm32f37x_wwdg.o
  .debug_macro   0x00000000       0x18 obj\debug\spl\src\stm32f37x_wwdg.o
  .debug_macro   0x00000000       0x42 obj\debug\spl\src\stm32f37x_wwdg.o
  .debug_macro   0x00000000      0x8cb obj\debug\spl\src\stm32f37x_wwdg.o
@@ -3064,14 +2948,12 @@ Discarded input sections
  .debug_macro   0x00000000       0x88 obj\debug\spl\src\stm32f37x_wwdg.o
  .debug_macro   0x00000000       0x35 obj\debug\spl\src\stm32f37x_wwdg.o
  .debug_macro   0x00000000       0x2e obj\debug\spl\src\stm32f37x_wwdg.o
- .debug_line    0x00000000      0x55f obj\debug\spl\src\stm32f37x_wwdg.o
- .debug_str     0x00000000    0x48320 obj\debug\spl\src\stm32f37x_wwdg.o
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_wwdg.o
+ .debug_line    0x00000000      0x544 obj\debug\spl\src\stm32f37x_wwdg.o
+ .debug_str     0x00000000    0x4816f obj\debug\spl\src\stm32f37x_wwdg.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_wwdg.o
  .ARM.attributes
                 0x00000000       0x33 obj\debug\spl\src\stm32f37x_wwdg.o
  .debug_frame   0x00000000       0xe8 obj\debug\spl\src\stm32f37x_wwdg.o
- .group         0x00000000        0x8 obj\debug\src\button.o
- .group         0x00000000        0x8 obj\debug\src\button.o
  .group         0x00000000        0x8 obj\debug\src\button.o
  .group         0x00000000        0x8 obj\debug\src\button.o
  .group         0x00000000        0x8 obj\debug\src\button.o
@@ -3112,11 +2994,9 @@ Discarded input sections
  .debug_macro   0x00000000      0x826 obj\debug\src\button.o
  .debug_macro   0x00000000       0x72 obj\debug\src\button.o
  .debug_macro   0x00000000       0x35 obj\debug\src\button.o
- .debug_macro   0x00000000       0x3a obj\debug\src\button.o
- .debug_macro   0x00000000       0x10 obj\debug\src\button.o
- .debug_macro   0x00000000       0x2e obj\debug\src\button.o
- .debug_macro   0x00000000       0xa3 obj\debug\src\button.o
- .debug_macro   0x00000000      0x20e obj\debug\src\button.o
+ .debug_macro   0x00000000       0x16 obj\debug\src\button.o
+ .debug_macro   0x00000000       0x44 obj\debug\src\button.o
+ .debug_macro   0x00000000      0x209 obj\debug\src\button.o
  .debug_macro   0x00000000       0x18 obj\debug\src\button.o
  .debug_macro   0x00000000       0x42 obj\debug\src\button.o
  .debug_macro   0x00000000      0x8cb obj\debug\src\button.o
@@ -3179,19 +3059,15 @@ Discarded input sections
  .group         0x00000000        0x8 obj\debug\src\ds18b20.o
  .group         0x00000000        0x8 obj\debug\src\ds18b20.o
  .group         0x00000000        0x8 obj\debug\src\ds18b20.o
- .group         0x00000000        0x8 obj\debug\src\ds18b20.o
- .group         0x00000000        0x8 obj\debug\src\ds18b20.o
  .text          0x00000000        0x0 obj\debug\src\ds18b20.o
  .data          0x00000000        0x0 obj\debug\src\ds18b20.o
  .bss           0x00000000        0x0 obj\debug\src\ds18b20.o
  .debug_macro   0x00000000      0x826 obj\debug\src\ds18b20.o
  .debug_macro   0x00000000       0x72 obj\debug\src\ds18b20.o
  .debug_macro   0x00000000       0x35 obj\debug\src\ds18b20.o
- .debug_macro   0x00000000       0x3a obj\debug\src\ds18b20.o
- .debug_macro   0x00000000       0x10 obj\debug\src\ds18b20.o
- .debug_macro   0x00000000       0x2e obj\debug\src\ds18b20.o
- .debug_macro   0x00000000       0xa3 obj\debug\src\ds18b20.o
- .debug_macro   0x00000000      0x20e obj\debug\src\ds18b20.o
+ .debug_macro   0x00000000       0x16 obj\debug\src\ds18b20.o
+ .debug_macro   0x00000000       0x44 obj\debug\src\ds18b20.o
+ .debug_macro   0x00000000      0x209 obj\debug\src\ds18b20.o
  .debug_macro   0x00000000       0x18 obj\debug\src\ds18b20.o
  .debug_macro   0x00000000       0x42 obj\debug\src\ds18b20.o
  .debug_macro   0x00000000      0x8cb obj\debug\src\ds18b20.o
@@ -3254,19 +3130,15 @@ Discarded input sections
  .group         0x00000000        0x8 obj\debug\src\hd44780.o
  .group         0x00000000        0x8 obj\debug\src\hd44780.o
  .group         0x00000000        0x8 obj\debug\src\hd44780.o
- .group         0x00000000        0x8 obj\debug\src\hd44780.o
- .group         0x00000000        0x8 obj\debug\src\hd44780.o
  .text          0x00000000        0x0 obj\debug\src\hd44780.o
  .data          0x00000000        0x0 obj\debug\src\hd44780.o
  .bss           0x00000000        0x0 obj\debug\src\hd44780.o
  .debug_macro   0x00000000      0x826 obj\debug\src\hd44780.o
  .debug_macro   0x00000000       0x72 obj\debug\src\hd44780.o
  .debug_macro   0x00000000       0x35 obj\debug\src\hd44780.o
- .debug_macro   0x00000000       0x3a obj\debug\src\hd44780.o
- .debug_macro   0x00000000       0x10 obj\debug\src\hd44780.o
- .debug_macro   0x00000000       0x2e obj\debug\src\hd44780.o
- .debug_macro   0x00000000       0xa3 obj\debug\src\hd44780.o
- .debug_macro   0x00000000      0x20e obj\debug\src\hd44780.o
+ .debug_macro   0x00000000       0x16 obj\debug\src\hd44780.o
+ .debug_macro   0x00000000       0x44 obj\debug\src\hd44780.o
+ .debug_macro   0x00000000      0x209 obj\debug\src\hd44780.o
  .debug_macro   0x00000000       0x18 obj\debug\src\hd44780.o
  .debug_macro   0x00000000       0x42 obj\debug\src\hd44780.o
  .debug_macro   0x00000000      0x8cb obj\debug\src\hd44780.o
@@ -3295,8 +3167,78 @@ Discarded input sections
  .debug_macro   0x00000000      0x347 obj\debug\src\hd44780.o
  .debug_macro   0x00000000       0x34 obj\debug\src\hd44780.o
  .debug_macro   0x00000000       0x88 obj\debug\src\hd44780.o
- .group         0x00000000        0x8 obj\debug\src\encoder.o
- .group         0x00000000        0x8 obj\debug\src\encoder.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .group         0x00000000        0x8 obj\debug\src\eeprom.o
+ .text          0x00000000        0x0 obj\debug\src\eeprom.o
+ .data          0x00000000        0x0 obj\debug\src\eeprom.o
+ .bss           0x00000000        0x0 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000      0x826 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000       0x72 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000       0x35 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000       0x16 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000       0x44 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000      0x209 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000       0x18 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000       0x42 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000      0x8cb obj\debug\src\eeprom.o
+ .debug_macro   0x00000000     0x633f obj\debug\src\eeprom.o
+ .debug_macro   0x00000000      0x257 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000      0x3cf obj\debug\src\eeprom.o
+ .debug_macro   0x00000000      0x191 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000       0x46 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000      0x10b obj\debug\src\eeprom.o
+ .debug_macro   0x00000000      0x19d obj\debug\src\eeprom.o
+ .debug_macro   0x00000000       0xa6 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000      0x3a8 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000       0xdc obj\debug\src\eeprom.o
+ .debug_macro   0x00000000      0x32e obj\debug\src\eeprom.o
+ .debug_macro   0x00000000      0x1af obj\debug\src\eeprom.o
+ .debug_macro   0x00000000      0x168 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000      0x29a obj\debug\src\eeprom.o
+ .debug_macro   0x00000000       0x70 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000       0xd3 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000      0x572 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000      0x5a5 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000      0x282 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000      0x38f obj\debug\src\eeprom.o
+ .debug_macro   0x00000000      0x750 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000      0x347 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000       0x34 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000       0x88 obj\debug\src\eeprom.o
+ .debug_macro   0x00000000       0x35 obj\debug\src\eeprom.o
  .group         0x00000000        0x8 obj\debug\src\encoder.o
  .group         0x00000000        0x8 obj\debug\src\encoder.o
  .group         0x00000000        0x8 obj\debug\src\encoder.o
@@ -3337,11 +3279,9 @@ Discarded input sections
  .debug_macro   0x00000000      0x826 obj\debug\src\encoder.o
  .debug_macro   0x00000000       0x72 obj\debug\src\encoder.o
  .debug_macro   0x00000000       0x35 obj\debug\src\encoder.o
- .debug_macro   0x00000000       0x3a obj\debug\src\encoder.o
- .debug_macro   0x00000000       0x10 obj\debug\src\encoder.o
- .debug_macro   0x00000000       0x2e obj\debug\src\encoder.o
- .debug_macro   0x00000000       0xa3 obj\debug\src\encoder.o
- .debug_macro   0x00000000      0x20e obj\debug\src\encoder.o
+ .debug_macro   0x00000000       0x16 obj\debug\src\encoder.o
+ .debug_macro   0x00000000       0x44 obj\debug\src\encoder.o
+ .debug_macro   0x00000000      0x209 obj\debug\src\encoder.o
  .debug_macro   0x00000000       0x18 obj\debug\src\encoder.o
  .debug_macro   0x00000000       0x42 obj\debug\src\encoder.o
  .debug_macro   0x00000000      0x8cb obj\debug\src\encoder.o
@@ -3424,12 +3364,14 @@ Discarded input sections
  .group         0x00000000        0x8 obj\debug\src\main.o
  .group         0x00000000        0x8 obj\debug\src\main.o
  .group         0x00000000        0x8 obj\debug\src\main.o
+ .group         0x00000000        0x8 obj\debug\src\main.o
  .text          0x00000000        0x0 obj\debug\src\main.o
  .data          0x00000000        0x0 obj\debug\src\main.o
  .bss           0x00000000        0x0 obj\debug\src\main.o
  .text.Default_Handler
                 0x00000000        0x8 obj\debug\src\main.o
- .debug_macro   0x00000000       0xa3 obj\debug\src\main.o
+ .debug_macro   0x00000000      0x826 obj\debug\src\main.o
+ .debug_macro   0x00000000       0x16 obj\debug\src\main.o
  .debug_macro   0x00000000       0x72 obj\debug\src\main.o
  .debug_macro   0x00000000       0x35 obj\debug\src\main.o
  .debug_macro   0x00000000       0x18 obj\debug\src\main.o
@@ -3460,10 +3402,9 @@ Discarded input sections
  .debug_macro   0x00000000      0x347 obj\debug\src\main.o
  .debug_macro   0x00000000       0x34 obj\debug\src\main.o
  .debug_macro   0x00000000       0x88 obj\debug\src\main.o
+ .debug_macro   0x00000000       0x64 obj\debug\src\main.o
  .data          0x00000000        0x0 obj\debug\src\startup_stm32f37x.o
  .bss           0x00000000        0x0 obj\debug\src\startup_stm32f37x.o
- .group         0x00000000        0x8 obj\debug\src\system_stm32f37x.o
- .group         0x00000000        0x8 obj\debug\src\system_stm32f37x.o
  .group         0x00000000        0x8 obj\debug\src\system_stm32f37x.o
  .group         0x00000000        0x8 obj\debug\src\system_stm32f37x.o
  .group         0x00000000        0x8 obj\debug\src\system_stm32f37x.o
@@ -3510,11 +3451,9 @@ Discarded input sections
  .debug_macro   0x00000000      0x826 obj\debug\src\system_stm32f37x.o
  .debug_macro   0x00000000       0x72 obj\debug\src\system_stm32f37x.o
  .debug_macro   0x00000000       0x35 obj\debug\src\system_stm32f37x.o
- .debug_macro   0x00000000       0x3a obj\debug\src\system_stm32f37x.o
- .debug_macro   0x00000000       0x10 obj\debug\src\system_stm32f37x.o
- .debug_macro   0x00000000       0x2e obj\debug\src\system_stm32f37x.o
- .debug_macro   0x00000000       0xa3 obj\debug\src\system_stm32f37x.o
- .debug_macro   0x00000000      0x20e obj\debug\src\system_stm32f37x.o
+ .debug_macro   0x00000000       0x16 obj\debug\src\system_stm32f37x.o
+ .debug_macro   0x00000000       0x44 obj\debug\src\system_stm32f37x.o
+ .debug_macro   0x00000000      0x209 obj\debug\src\system_stm32f37x.o
  .debug_macro   0x00000000       0x18 obj\debug\src\system_stm32f37x.o
  .debug_macro   0x00000000       0x42 obj\debug\src\system_stm32f37x.o
  .debug_macro   0x00000000      0x8cb obj\debug\src\system_stm32f37x.o
@@ -3631,7 +3570,7 @@ LOAD c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-non
                 0x00000000                __HEAP_SIZE = 0x0
                 0x00000100                __STACK_SIZE = 0x100
 
-.text           0x08000000     0x3ca4
+.text           0x08000000     0x4988
  *(.isr_vector)
  .isr_vector    0x08000000      0x188 obj\debug\src\startup_stm32f37x.o
                 0x08000000                __isr_vector
@@ -3649,320 +3588,357 @@ LOAD c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-non
  .text.EXTI_ClearITPendingBit
                 0x080003e0       0x20 obj\debug\spl\src\stm32f37x_exti.o
                 0x080003e0                EXTI_ClearITPendingBit
+ .text.FLASH_Unlock
+                0x08000400       0x40 obj\debug\spl\src\stm32f37x_flash.o
+                0x08000400                FLASH_Unlock
+ .text.FLASH_ErasePage
+                0x08000440       0x8c obj\debug\spl\src\stm32f37x_flash.o
+                0x08000440                FLASH_ErasePage
+ .text.FLASH_ProgramHalfWord
+                0x080004cc       0x74 obj\debug\spl\src\stm32f37x_flash.o
+                0x080004cc                FLASH_ProgramHalfWord
+ .text.FLASH_GetStatus
+                0x08000540       0x70 obj\debug\spl\src\stm32f37x_flash.o
+                0x08000540                FLASH_GetStatus
+ .text.FLASH_WaitForLastOperation
+                0x080005b0       0x4c obj\debug\spl\src\stm32f37x_flash.o
+                0x080005b0                FLASH_WaitForLastOperation
  .text.GPIO_Init
-                0x08000400      0x150 obj\debug\spl\src\stm32f37x_gpio.o
-                0x08000400                GPIO_Init
+                0x080005fc      0x150 obj\debug\spl\src\stm32f37x_gpio.o
+                0x080005fc                GPIO_Init
  .text.GPIO_ReadInputDataBit
-                0x08000550       0x40 obj\debug\spl\src\stm32f37x_gpio.o
-                0x08000550                GPIO_ReadInputDataBit
+                0x0800074c       0x40 obj\debug\spl\src\stm32f37x_gpio.o
+                0x0800074c                GPIO_ReadInputDataBit
  .text.GPIO_SetBits
-                0x08000590       0x1c obj\debug\spl\src\stm32f37x_gpio.o
-                0x08000590                GPIO_SetBits
+                0x0800078c       0x1c obj\debug\spl\src\stm32f37x_gpio.o
+                0x0800078c                GPIO_SetBits
  .text.GPIO_ResetBits
-                0x080005ac       0x1c obj\debug\spl\src\stm32f37x_gpio.o
-                0x080005ac                GPIO_ResetBits
+                0x080007a8       0x1c obj\debug\spl\src\stm32f37x_gpio.o
+                0x080007a8                GPIO_ResetBits
  .text.GPIO_WriteBit
-                0x080005c8       0x30 obj\debug\spl\src\stm32f37x_gpio.o
-                0x080005c8                GPIO_WriteBit
+                0x080007c4       0x30 obj\debug\spl\src\stm32f37x_gpio.o
+                0x080007c4                GPIO_WriteBit
  .text.GPIO_PinAFConfig
-                0x080005f8       0xa8 obj\debug\spl\src\stm32f37x_gpio.o
-                0x080005f8                GPIO_PinAFConfig
+                0x080007f4       0xa8 obj\debug\spl\src\stm32f37x_gpio.o
+                0x080007f4                GPIO_PinAFConfig
  .text.NVIC_Init
-                0x080006a0       0xe8 obj\debug\spl\src\stm32f37x_misc.o
-                0x080006a0                NVIC_Init
+                0x0800089c       0xe8 obj\debug\spl\src\stm32f37x_misc.o
+                0x0800089c                NVIC_Init
  .text.RCC_MCOConfig
-                0x08000788       0x20 obj\debug\spl\src\stm32f37x_rcc.o
-                0x08000788                RCC_MCOConfig
+                0x08000984       0x20 obj\debug\spl\src\stm32f37x_rcc.o
+                0x08000984                RCC_MCOConfig
  .text.RCC_GetClocksFreq
-                0x080007a8      0x3e0 obj\debug\spl\src\stm32f37x_rcc.o
-                0x080007a8                RCC_GetClocksFreq
+                0x080009a4      0x3e0 obj\debug\spl\src\stm32f37x_rcc.o
+                0x080009a4                RCC_GetClocksFreq
  .text.RCC_AHBPeriphClockCmd
-                0x08000b88       0x54 obj\debug\spl\src\stm32f37x_rcc.o
-                0x08000b88                RCC_AHBPeriphClockCmd
+                0x08000d84       0x54 obj\debug\spl\src\stm32f37x_rcc.o
+                0x08000d84                RCC_AHBPeriphClockCmd
  .text.RCC_APB2PeriphClockCmd
-                0x08000bdc       0x54 obj\debug\spl\src\stm32f37x_rcc.o
-                0x08000bdc                RCC_APB2PeriphClockCmd
+                0x08000dd8       0x54 obj\debug\spl\src\stm32f37x_rcc.o
+                0x08000dd8                RCC_APB2PeriphClockCmd
  .text.RCC_APB1PeriphClockCmd
-                0x08000c30       0x54 obj\debug\spl\src\stm32f37x_rcc.o
-                0x08000c30                RCC_APB1PeriphClockCmd
+                0x08000e2c       0x54 obj\debug\spl\src\stm32f37x_rcc.o
+                0x08000e2c                RCC_APB1PeriphClockCmd
  .text.SYSCFG_EXTILineConfig
-                0x08000c84       0xb0 obj\debug\spl\src\stm32f37x_syscfg.o
-                0x08000c84                SYSCFG_EXTILineConfig
+                0x08000e80       0xb0 obj\debug\spl\src\stm32f37x_syscfg.o
+                0x08000e80                SYSCFG_EXTILineConfig
  .text.TIM_TimeBaseInit
-                0x08000d34      0x100 obj\debug\spl\src\stm32f37x_tim.o
-                0x08000d34                TIM_TimeBaseInit
+                0x08000f30      0x100 obj\debug\spl\src\stm32f37x_tim.o
+                0x08000f30                TIM_TimeBaseInit
  .text.TIM_PrescalerConfig
-                0x08000e34       0x28 obj\debug\spl\src\stm32f37x_tim.o
-                0x08000e34                TIM_PrescalerConfig
+                0x08001030       0x28 obj\debug\spl\src\stm32f37x_tim.o
+                0x08001030                TIM_PrescalerConfig
  .text.TIM_SetAutoreload
-                0x08000e5c       0x1c obj\debug\spl\src\stm32f37x_tim.o
-                0x08000e5c                TIM_SetAutoreload
+                0x08001058       0x1c obj\debug\spl\src\stm32f37x_tim.o
+                0x08001058                TIM_SetAutoreload
  .text.TIM_ARRPreloadConfig
-                0x08000e78       0x40 obj\debug\spl\src\stm32f37x_tim.o
-                0x08000e78                TIM_ARRPreloadConfig
- .text.TIM_Cmd  0x08000eb8       0x40 obj\debug\spl\src\stm32f37x_tim.o
-                0x08000eb8                TIM_Cmd
+                0x08001074       0x40 obj\debug\spl\src\stm32f37x_tim.o
+                0x08001074                TIM_ARRPreloadConfig
+ .text.TIM_Cmd  0x080010b4       0x40 obj\debug\spl\src\stm32f37x_tim.o
+                0x080010b4                TIM_Cmd
  .text.TIM_OC3Init
-                0x08000ef8       0xa4 obj\debug\spl\src\stm32f37x_tim.o
-                0x08000ef8                TIM_OC3Init
+                0x080010f4       0xa4 obj\debug\spl\src\stm32f37x_tim.o
+                0x080010f4                TIM_OC3Init
  .text.TIM_ITConfig
-                0x08000f9c       0x48 obj\debug\spl\src\stm32f37x_tim.o
-                0x08000f9c                TIM_ITConfig
+                0x08001198       0x48 obj\debug\spl\src\stm32f37x_tim.o
+                0x08001198                TIM_ITConfig
  .text.TIM_GetITStatus
-                0x08000fe4       0x60 obj\debug\spl\src\stm32f37x_tim.o
-                0x08000fe4                TIM_GetITStatus
+                0x080011e0       0x60 obj\debug\spl\src\stm32f37x_tim.o
+                0x080011e0                TIM_GetITStatus
  .text.TIM_ClearITPendingBit
-                0x08001044       0x24 obj\debug\spl\src\stm32f37x_tim.o
-                0x08001044                TIM_ClearITPendingBit
+                0x08001240       0x24 obj\debug\spl\src\stm32f37x_tim.o
+                0x08001240                TIM_ClearITPendingBit
  .text.TIM_EncoderInterfaceConfig
-                0x08001068       0x94 obj\debug\spl\src\stm32f37x_tim.o
-                0x08001068                TIM_EncoderInterfaceConfig
+                0x08001264       0x94 obj\debug\spl\src\stm32f37x_tim.o
+                0x08001264                TIM_EncoderInterfaceConfig
  .text.Button_Init
-                0x080010fc      0x12c obj\debug\src\button.o
-                0x080010fc                Button_Init
+                0x080012f8      0x12c obj\debug\src\button.o
+                0x080012f8                Button_Init
  .text.ButtonGetState
-                0x08001228       0x58 obj\debug\src\button.o
-                0x08001228                ButtonGetState
+                0x08001424       0x58 obj\debug\src\button.o
+                0x08001424                ButtonGetState
  .text.EXTI0_IRQHandler
-                0x08001280       0x34 obj\debug\src\button.o
-                0x08001280                EXTI0_IRQHandler
+                0x0800147c       0x34 obj\debug\src\button.o
+                0x0800147c                EXTI0_IRQHandler
  .text.EXTI1_IRQHandler
-                0x080012b4       0x34 obj\debug\src\button.o
-                0x080012b4                EXTI1_IRQHandler
+                0x080014b0       0x34 obj\debug\src\button.o
+                0x080014b0                EXTI1_IRQHandler
  .text.EXTI2_TS_IRQHandler
-                0x080012e8       0x34 obj\debug\src\button.o
-                0x080012e8                EXTI2_TS_IRQHandler
+                0x080014e4       0x34 obj\debug\src\button.o
+                0x080014e4                EXTI2_TS_IRQHandler
  .text.EXTI3_IRQHandler
-                0x0800131c       0x34 obj\debug\src\button.o
-                0x0800131c                EXTI3_IRQHandler
+                0x08001518       0x34 obj\debug\src\button.o
+                0x08001518                EXTI3_IRQHandler
  .text.TIM3_IRQHandler
-                0x08001350       0x2c obj\debug\src\button.o
-                0x08001350                TIM3_IRQHandler
+                0x0800154c       0x2c obj\debug\src\button.o
+                0x0800154c                TIM3_IRQHandler
  .text.oneWire_Init
-                0x0800137c      0x110 obj\debug\src\ds18b20.o
-                0x0800137c                oneWire_Init
+                0x08001578      0x110 obj\debug\src\ds18b20.o
+                0x08001578                oneWire_Init
  .text.TIM14_IRQHandler
-                0x0800148c       0x44 obj\debug\src\ds18b20.o
-                0x0800148c                TIM14_IRQHandler
+                0x08001688       0x44 obj\debug\src\ds18b20.o
+                0x08001688                TIM14_IRQHandler
  .text.OW_Delay_us
-                0x080014d0       0x50 obj\debug\src\ds18b20.o
+                0x080016cc       0x50 obj\debug\src\ds18b20.o
  .text.OneWire_ReadBit
-                0x08001520       0x3c obj\debug\src\ds18b20.o
-                0x08001520                OneWire_ReadBit
+                0x0800171c       0x3c obj\debug\src\ds18b20.o
+                0x0800171c                OneWire_ReadBit
  .text.OneWire_WriteBitHi
-                0x0800155c       0x20 obj\debug\src\ds18b20.o
-                0x0800155c                OneWire_WriteBitHi
+                0x08001758       0x20 obj\debug\src\ds18b20.o
+                0x08001758                OneWire_WriteBitHi
  .text.OneWire_WriteBitLo
-                0x0800157c       0x20 obj\debug\src\ds18b20.o
-                0x0800157c                OneWire_WriteBitLo
+                0x08001778       0x20 obj\debug\src\ds18b20.o
+                0x08001778                OneWire_WriteBitLo
  .text.OneWire_ReadByte
-                0x0800159c       0x50 obj\debug\src\ds18b20.o
-                0x0800159c                OneWire_ReadByte
+                0x08001798       0x50 obj\debug\src\ds18b20.o
+                0x08001798                OneWire_ReadByte
  .text.OneWire_WriteByte
-                0x080015ec       0x4c obj\debug\src\ds18b20.o
-                0x080015ec                OneWire_WriteByte
+                0x080017e8       0x4c obj\debug\src\ds18b20.o
+                0x080017e8                OneWire_WriteByte
  .text.OneWire_ResetSequenz
-                0x08001638       0x74 obj\debug\src\ds18b20.o
-                0x08001638                OneWire_ResetSequenz
+                0x08001834       0x74 obj\debug\src\ds18b20.o
+                0x08001834                OneWire_ResetSequenz
  .text.OW_DataLo
-                0x080016ac       0x24 obj\debug\src\ds18b20.o
-                0x080016ac                OW_DataLo
+                0x080018a8       0x24 obj\debug\src\ds18b20.o
+                0x080018a8                OW_DataLo
  .text.OW_DataHi
-                0x080016d0       0x24 obj\debug\src\ds18b20.o
-                0x080016d0                OW_DataHi
+                0x080018cc       0x24 obj\debug\src\ds18b20.o
+                0x080018cc                OW_DataHi
  .text.OW_Mess_Lo_us
-                0x080016f4       0xac obj\debug\src\ds18b20.o
-                0x080016f4                OW_Mess_Lo_us
+                0x080018f0       0xac obj\debug\src\ds18b20.o
+                0x080018f0                OW_Mess_Lo_us
  .text.OW_DataRead
-                0x080017a0       0x34 obj\debug\src\ds18b20.o
-                0x080017a0                OW_DataRead
+                0x0800199c       0x34 obj\debug\src\ds18b20.o
+                0x0800199c                OW_DataRead
  .text.OneWire_ReadRomCode
-                0x080017d4       0x4c obj\debug\src\ds18b20.o
-                0x080017d4                OneWire_ReadRomCode
+                0x080019d0       0x4c obj\debug\src\ds18b20.o
+                0x080019d0                OneWire_ReadRomCode
  .text.DS18B20_StartMeasurement
-                0x08001820       0x44 obj\debug\src\ds18b20.o
-                0x08001820                DS18B20_StartMeasurement
+                0x08001a1c       0x44 obj\debug\src\ds18b20.o
+                0x08001a1c                DS18B20_StartMeasurement
  .text.DS18B20_GetTemp
-                0x08001864      0x238 obj\debug\src\ds18b20.o
-                0x08001864                DS18B20_GetTemp
+                0x08001a60      0x238 obj\debug\src\ds18b20.o
+                0x08001a60                DS18B20_GetTemp
  .text.DS18B20_SetResolution
-                0x08001a9c       0x9c obj\debug\src\ds18b20.o
-                0x08001a9c                DS18B20_SetResolution
+                0x08001c98       0x9c obj\debug\src\ds18b20.o
+                0x08001c98                DS18B20_SetResolution
  .text.DS18B20_ReadSensor
-                0x08001b38       0xb4 obj\debug\src\ds18b20.o
-                0x08001b38                DS18B20_ReadSensor
- .text.delay    0x08001bec       0x30 obj\debug\src\hd44780.o
+                0x08001d34       0xb4 obj\debug\src\ds18b20.o
+                0x08001d34                DS18B20_ReadSensor
+ .text.delay    0x08001de8       0x30 obj\debug\src\hd44780.o
  .text.HD44780_Init
-                0x08001c1c      0x1a4 obj\debug\src\hd44780.o
-                0x08001c1c                HD44780_Init
+                0x08001e18      0x1a4 obj\debug\src\hd44780.o
+                0x08001e18                HD44780_Init
  .text.writeCommand4bit
-                0x08001dc0       0x30 obj\debug\src\hd44780.o
+                0x08001fbc       0x30 obj\debug\src\hd44780.o
  .text.writeNibble
-                0x08001df0       0x9c obj\debug\src\hd44780.o
+                0x08001fec       0x9c obj\debug\src\hd44780.o
  .text.writeCommand
-                0x08001e8c       0x38 obj\debug\src\hd44780.o
+                0x08002088       0x38 obj\debug\src\hd44780.o
  .text.writeData
-                0x08001ec4       0x48 obj\debug\src\hd44780.o
+                0x080020c0       0x48 obj\debug\src\hd44780.o
  .text.HD44780_BL
-                0x08001f0c       0x24 obj\debug\src\hd44780.o
-                0x08001f0c                HD44780_BL
+                0x08002108       0x24 obj\debug\src\hd44780.o
+                0x08002108                HD44780_BL
  .text.HD44780_string
-                0x08001f30       0x70 obj\debug\src\hd44780.o
-                0x08001f30                HD44780_string
+                0x0800212c       0x70 obj\debug\src\hd44780.o
+                0x0800212c                HD44780_string
+ .text.EE_Init  0x0800219c      0x340 obj\debug\src\eeprom.o
+                0x0800219c                EE_Init
+ .text.EE_ReadVariable
+                0x080024dc       0xb8 obj\debug\src\eeprom.o
+                0x080024dc                EE_ReadVariable
+ .text.EE_WriteVariable
+                0x08002594       0x48 obj\debug\src\eeprom.o
+                0x08002594                EE_WriteVariable
+ .text.EE_Format
+                0x080025dc       0x60 obj\debug\src\eeprom.o
+ .text.EE_FindValidPage
+                0x0800263c       0xa4 obj\debug\src\eeprom.o
+ .text.EE_VerifyPageFullWriteVariable
+                0x080026e0       0xcc obj\debug\src\eeprom.o
+ .text.EE_PageTransfer
+                0x080027ac      0x17c obj\debug\src\eeprom.o
  .text.encoder_init
-                0x08001fa0      0x100 obj\debug\src\encoder.o
-                0x08001fa0                encoder_init
+                0x08002928      0x100 obj\debug\src\encoder.o
+                0x08002928                encoder_init
  .text.TIM4_IRQHandler
-                0x080020a0       0x44 obj\debug\src\encoder.o
-                0x080020a0                TIM4_IRQHandler
+                0x08002a28       0x44 obj\debug\src\encoder.o
+                0x08002a28                TIM4_IRQHandler
  .text.NVIC_SetPriority
-                0x080020e4       0x5c obj\debug\src\main.o
+                0x08002a6c       0x5c obj\debug\src\main.o
  .text.SysTick_Config
-                0x08002140       0x64 obj\debug\src\main.o
- .text.main     0x080021a4      0xbf4 obj\debug\src\main.o
-                0x080021a4                main
+                0x08002ac8       0x64 obj\debug\src\main.o
+ .text.main     0x08002b2c      0xca4 obj\debug\src\main.o
+                0x08002b2c                main
  .text.encoder_count_up
-                0x08002d98       0x40 obj\debug\src\main.o
-                0x08002d98                encoder_count_up
+                0x080037d0       0x40 obj\debug\src\main.o
+                0x080037d0                encoder_count_up
  .text.encoder_count_down
-                0x08002dd8       0x40 obj\debug\src\main.o
-                0x08002dd8                encoder_count_down
+                0x08003810       0x40 obj\debug\src\main.o
+                0x08003810                encoder_count_down
  .text.SystickInit
-                0x08002e18       0x30 obj\debug\src\main.o
-                0x08002e18                SystickInit
+                0x08003850       0x30 obj\debug\src\main.o
+                0x08003850                SystickInit
  .text.SysTick_Handler
-                0x08002e48       0x58 obj\debug\src\main.o
-                0x08002e48                SysTick_Handler
- .text          0x08002ea0       0xec obj\debug\src\startup_stm32f37x.o
-                0x08002ea0                Reset_Handler
-                0x08002eee                NMI_Handler
-                0x08002ef0                HardFault_Handler
-                0x08002ef2                MemManage_Handler
-                0x08002ef4                BusFault_Handler
-                0x08002ef6                UsageFault_Handler
-                0x08002ef8                SVC_Handler
-                0x08002efa                DebugMon_Handler
-                0x08002efc                PendSV_Handler
-                0x08002f02                WWDG_IRQHandler
-                0x08002f04                PVD_IRQHandler
-                0x08002f06                TAMPER_STAMP_IRQHandler
-                0x08002f08                RTC_WKUP_IRQHandler
-                0x08002f0a                FLASH_IRQHandler
-                0x08002f0c                RCC_IRQHandler
-                0x08002f16                EXTI4_IRQHandler
-                0x08002f18                DMA1_Channel1_IRQHandler
-                0x08002f1a                DMA1_Channel2_IRQHandler
-                0x08002f1c                DMA1_Channel3_IRQHandler
-                0x08002f1e                DMA1_Channel4_IRQHandler
-                0x08002f20                DMA1_Channel5_IRQHandler
-                0x08002f22                DMA1_Channel6_IRQHandler
-                0x08002f24                DMA1_Channel7_IRQHandler
-                0x08002f26                ADC1_IRQHandler
-                0x08002f28                CAN1_TX_IRQHandler
-                0x08002f2a                CAN1_RX0_IRQHandler
-                0x08002f2c                CAN1_RX1_IRQHandler
-                0x08002f2e                CAN1_SCE_IRQHandler
-                0x08002f30                EXTI9_5_IRQHandler
-                0x08002f32                TIM15_IRQHandler
-                0x08002f34                TIM16_IRQHandler
-                0x08002f36                TIM17_IRQHandler
-                0x08002f38                TIM18_DAC2_IRQHandler
-                0x08002f3a                TIM2_IRQHandler
-                0x08002f40                I2C1_EV_IRQHandler
-                0x08002f42                I2C1_ER_IRQHandler
-                0x08002f44                I2C2_EV_IRQHandler
-                0x08002f46                I2C2_ER_IRQHandler
-                0x08002f48                SPI1_IRQHandler
-                0x08002f4a                SPI2_IRQHandler
-                0x08002f4c                USART1_IRQHandler
-                0x08002f4e                USART2_IRQHandler
-                0x08002f50                USART3_IRQHandler
-                0x08002f52                EXTI15_10_IRQHandler
-                0x08002f54                RTC_Alarm_IRQHandler
-                0x08002f56                CEC_IRQHandler
-                0x08002f58                TIM12_IRQHandler
-                0x08002f5a                TIM13_IRQHandler
-                0x08002f5e                TIM5_IRQHandler
-                0x08002f60                SPI3_IRQHandler
-                0x08002f62                TIM6_DAC1_IRQHandler
-                0x08002f64                TIM7_IRQHandler
-                0x08002f66                DMA2_Channel1_IRQHandler
-                0x08002f68                DMA2_Channel2_IRQHandler
-                0x08002f6a                DMA2_Channel3_IRQHandler
-                0x08002f6c                DMA2_Channel4_IRQHandler
-                0x08002f6e                DMA2_Channel5_IRQHandler
-                0x08002f70                SDADC1_IRQHandler
-                0x08002f72                SDADC2_IRQHandler
-                0x08002f74                SDADC3_IRQHandler
-                0x08002f76                COMP_IRQHandler
-                0x08002f78                USB_HP_IRQHandler
-                0x08002f7a                USB_LP_IRQHandler
-                0x08002f7c                USBWakeUp_IRQHandler
-                0x08002f7e                TIM19_IRQHandler
-                0x08002f80                FPU_IRQHandler
+                0x08003880       0x58 obj\debug\src\main.o
+                0x08003880                SysTick_Handler
+ .text.storeSettings
+                0x080038d8      0x178 obj\debug\src\main.o
+                0x080038d8                storeSettings
+ .text.readSettings
+                0x08003a50      0x13c obj\debug\src\main.o
+                0x08003a50                readSettings
+ .text          0x08003b8c       0xe4 obj\debug\src\startup_stm32f37x.o
+                0x08003b8c                Reset_Handler
+                0x08003bd2                NMI_Handler
+                0x08003bd4                HardFault_Handler
+                0x08003bd6                MemManage_Handler
+                0x08003bd8                BusFault_Handler
+                0x08003bda                UsageFault_Handler
+                0x08003bdc                SVC_Handler
+                0x08003bde                DebugMon_Handler
+                0x08003be0                PendSV_Handler
+                0x08003be6                WWDG_IRQHandler
+                0x08003be8                PVD_IRQHandler
+                0x08003bea                TAMPER_STAMP_IRQHandler
+                0x08003bec                RTC_WKUP_IRQHandler
+                0x08003bee                FLASH_IRQHandler
+                0x08003bf0                RCC_IRQHandler
+                0x08003bfa                EXTI4_IRQHandler
+                0x08003bfc                DMA1_Channel1_IRQHandler
+                0x08003bfe                DMA1_Channel2_IRQHandler
+                0x08003c00                DMA1_Channel3_IRQHandler
+                0x08003c02                DMA1_Channel4_IRQHandler
+                0x08003c04                DMA1_Channel5_IRQHandler
+                0x08003c06                DMA1_Channel6_IRQHandler
+                0x08003c08                DMA1_Channel7_IRQHandler
+                0x08003c0a                ADC1_IRQHandler
+                0x08003c0c                CAN1_TX_IRQHandler
+                0x08003c0e                CAN1_RX0_IRQHandler
+                0x08003c10                CAN1_RX1_IRQHandler
+                0x08003c12                CAN1_SCE_IRQHandler
+                0x08003c14                EXTI9_5_IRQHandler
+                0x08003c16                TIM15_IRQHandler
+                0x08003c18                TIM16_IRQHandler
+                0x08003c1a                TIM17_IRQHandler
+                0x08003c1c                TIM18_DAC2_IRQHandler
+                0x08003c1e                TIM2_IRQHandler
+                0x08003c24                I2C1_EV_IRQHandler
+                0x08003c26                I2C1_ER_IRQHandler
+                0x08003c28                I2C2_EV_IRQHandler
+                0x08003c2a                I2C2_ER_IRQHandler
+                0x08003c2c                SPI1_IRQHandler
+                0x08003c2e                SPI2_IRQHandler
+                0x08003c30                USART1_IRQHandler
+                0x08003c32                USART2_IRQHandler
+                0x08003c34                USART3_IRQHandler
+                0x08003c36                EXTI15_10_IRQHandler
+                0x08003c38                RTC_Alarm_IRQHandler
+                0x08003c3a                CEC_IRQHandler
+                0x08003c3c                TIM12_IRQHandler
+                0x08003c3e                TIM13_IRQHandler
+                0x08003c42                TIM5_IRQHandler
+                0x08003c44                SPI3_IRQHandler
+                0x08003c46                TIM6_DAC1_IRQHandler
+                0x08003c48                TIM7_IRQHandler
+                0x08003c4a                DMA2_Channel1_IRQHandler
+                0x08003c4c                DMA2_Channel2_IRQHandler
+                0x08003c4e                DMA2_Channel3_IRQHandler
+                0x08003c50                DMA2_Channel4_IRQHandler
+                0x08003c52                DMA2_Channel5_IRQHandler
+                0x08003c54                SDADC1_IRQHandler
+                0x08003c56                SDADC2_IRQHandler
+                0x08003c58                SDADC3_IRQHandler
+                0x08003c5a                COMP_IRQHandler
+                0x08003c5c                USB_HP_IRQHandler
+                0x08003c5e                USB_LP_IRQHandler
+                0x08003c60                USBWakeUp_IRQHandler
+                0x08003c62                TIM19_IRQHandler
+                0x08003c64                FPU_IRQHandler
  .text.SystemInit
-                0x08002f8c       0xd8 obj\debug\src\system_stm32f37x.o
-                0x08002f8c                SystemInit
+                0x08003c70       0xd8 obj\debug\src\system_stm32f37x.o
+                0x08003c70                SystemInit
  .text.SetSysClock
-                0x08003064      0x170 obj\debug\src\system_stm32f37x.o
- .text.exit     0x080031d4       0x28 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-exit.o)
-                0x080031d4                exit
+                0x08003d48      0x170 obj\debug\src\system_stm32f37x.o
+ .text.exit     0x08003eb8       0x28 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-exit.o)
+                0x08003eb8                exit
  .text.__libc_init_array
-                0x080031fc       0x4c c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-init.o)
-                0x080031fc                __libc_init_array
- .text.memset   0x08003248       0x10 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memset.o)
-                0x08003248                memset
+                0x08003ee0       0x4c c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-init.o)
+                0x08003ee0                __libc_init_array
+ .text.memset   0x08003f2c       0x10 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memset.o)
+                0x08003f2c                memset
  .text.snprintf
-                0x08003258       0x64 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-snprintf.o)
-                0x08003258                sniprintf
-                0x08003258                snprintf
+                0x08003f3c       0x64 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-snprintf.o)
+                0x08003f3c                sniprintf
+                0x08003f3c                snprintf
  .text.__ssputs_r
-                0x080032bc       0xc0 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-svfprintf.o)
-                0x080032bc                __ssputs_r
+                0x08003fa0       0xc0 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-svfprintf.o)
+                0x08003fa0                __ssputs_r
  .text._svfprintf_r
-                0x0800337c      0x1f0 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-svfprintf.o)
-                0x0800337c                _svfiprintf_r
-                0x0800337c                _svfprintf_r
+                0x08004060      0x1f0 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-svfprintf.o)
+                0x08004060                _svfiprintf_r
+                0x08004060                _svfprintf_r
  .text._printf_common
-                0x0800356c       0xe4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-vfprintf_i.o)
-                0x0800356c                _printf_common
+                0x08004250       0xe4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-vfprintf_i.o)
+                0x08004250                _printf_common
  .text._printf_i
-                0x08003650      0x24c c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-vfprintf_i.o)
-                0x08003650                _printf_i
- .text.memchr   0x0800389c       0x1c c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memchr-stub.o)
-                0x0800389c                memchr
- .text.memcpy   0x080038b8       0x12 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memcpy-stub.o)
-                0x080038b8                memcpy
- .text.memmove  0x080038ca       0x32 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memmove.o)
-                0x080038ca                memmove
- .text._free_r  0x080038fc       0x84 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-freer.o)
-                0x080038fc                _free_r
+                0x08004334      0x24c c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-vfprintf_i.o)
+                0x08004334                _printf_i
+ .text.memchr   0x08004580       0x1c c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memchr-stub.o)
+                0x08004580                memchr
+ .text.memcpy   0x0800459c       0x12 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memcpy-stub.o)
+                0x0800459c                memcpy
+ .text.memmove  0x080045ae       0x32 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memmove.o)
+                0x080045ae                memmove
+ .text._free_r  0x080045e0       0x84 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-freer.o)
+                0x080045e0                _free_r
  .text._malloc_r
-                0x08003980       0xb4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-mallocr.o)
-                0x08003980                _malloc_r
+                0x08004664       0xb4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-mallocr.o)
+                0x08004664                _malloc_r
  .text._realloc_r
-                0x08003a34       0x48 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-reallocr.o)
-                0x08003a34                _realloc_r
- .text._sbrk_r  0x08003a7c       0x20 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-sbrkr.o)
-                0x08003a7c                _sbrk_r
- .text.strlen   0x08003a9c       0x10 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-strlen.o)
-                0x08003a9c                strlen
+                0x08004718       0x48 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-reallocr.o)
+                0x08004718                _realloc_r
+ .text._sbrk_r  0x08004760       0x20 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-sbrkr.o)
+                0x08004760                _sbrk_r
+ .text.strlen   0x08004780       0x10 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-strlen.o)
+                0x08004780                strlen
  .text._malloc_usable_size_r
-                0x08003aac       0x12 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-msizer.o)
-                0x08003aac                _malloc_usable_size_r
- *fill*         0x08003abe        0x2 
- .text._sbrk    0x08003ac0       0x34 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(sbrk.o)
-                0x08003ac0                _sbrk
- .text._exit    0x08003af4        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(_exit.o)
-                0x08003af4                _exit
+                0x08004790       0x12 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-msizer.o)
+                0x08004790                _malloc_usable_size_r
+ *fill*         0x080047a2        0x2 
+ .text._sbrk    0x080047a4       0x34 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(sbrk.o)
+                0x080047a4                _sbrk
+ .text._exit    0x080047d8        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(_exit.o)
+                0x080047d8                _exit
  *(.init)
- .init          0x08003af8        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crti.o
-                0x08003af8                _init
- .init          0x08003afc        0x8 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtn.o
+ .init          0x080047dc        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crti.o
+                0x080047dc                _init
+ .init          0x080047e0        0x8 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtn.o
  *(.fini)
- .fini          0x08003b04        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crti.o
-                0x08003b04                _fini
- .fini          0x08003b08        0x8 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtn.o
+ .fini          0x080047e8        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crti.o
+                0x080047e8                _fini
+ .fini          0x080047ec        0x8 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtn.o
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -3974,51 +3950,51 @@ LOAD c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-non
  *(SORT(.dtors.*))
  *(.dtors)
  *(.rodata*)
- .rodata        0x08003b10      0x154 obj\debug\src\main.o
+ .rodata        0x080047f4      0x154 obj\debug\src\main.o
  .rodata.str1.1
-                0x08003c64        0x2 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-impure.o)
- *fill*         0x08003c66        0x2 
+                0x08004948        0x2 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-impure.o)
+ *fill*         0x0800494a        0x2 
  .rodata._global_impure_ptr
-                0x08003c68        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-impure.o)
-                0x08003c68                _global_impure_ptr
+                0x0800494c        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-impure.o)
+                0x0800494c                _global_impure_ptr
  .rodata.str1.1
-                0x08003c6c       0x11 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-svfprintf.o)
+                0x08004950       0x11 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-svfprintf.o)
  .rodata.str1.1
-                0x08003c7d       0x22 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-vfprintf_i.o)
+                0x08004961       0x22 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-vfprintf_i.o)
  *(.eh_frame*)
- *fill*         0x08003c9f        0x1 
- .eh_frame      0x08003ca0        0x0 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtbegin.o
- .eh_frame      0x08003ca0        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtend.o
+ *fill*         0x08004983        0x1 
+ .eh_frame      0x08004984        0x0 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtbegin.o
+ .eh_frame      0x08004984        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtend.o
 
-.glue_7         0x08003ca4        0x0
+.glue_7         0x08004988        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x08003ca4        0x0
+.glue_7t        0x08004988        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x08003ca4        0x0
+.vfp11_veneer   0x08004988        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x08003ca4        0x0
+.v4_bx          0x08004988        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x08003ca4        0x0
+.iplt           0x08004988        0x0
  .iplt          0x00000000        0x0 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08003ca4                __exidx_start = .
+                0x08004988                __exidx_start = .
 
-.ARM.exidx      0x08003ca4        0x8
+.ARM.exidx      0x08004988        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x08003ca4        0x8 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
-                0x08003cac                __exidx_end = .
-                0x08003cac                __etext = .
+ .ARM.exidx     0x08004988        0x8 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+                0x08004990                __exidx_end = .
+                0x08004990                __etext = .
 
-.rel.dyn        0x08003cac        0x0
+.rel.dyn        0x08004990        0x0
  .rel.iplt      0x00000000        0x0 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtbegin.o
 
-.data           0x20000000      0x18c load address 0x08003cac
+.data           0x20000000      0x19c load address 0x08004990
                 0x20000000                __data_start__ = .
  *(vtable)
  *(.data*)
@@ -4033,77 +4009,83 @@ LOAD c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-non
  .data.actual_pin
                 0x20000028        0x2 obj\debug\src\ds18b20.o
  *fill*         0x2000002a        0x2 
+ .data.VirtAddVarTab
+                0x2000002c       0x10 obj\debug\src\main.o
+                0x2000002c                VirtAddVarTab
  .data.menue_points
-                0x2000002c       0xf0 obj\debug\src\main.o
-                0x2000002c                menue_points
- .data.counter.7960
-                0x2000011c        0x4 obj\debug\src\main.o
+                0x2000003c       0xf0 obj\debug\src\main.o
+                0x2000003c                menue_points
+ .data.counter.7974
+                0x2000012c        0x4 obj\debug\src\main.o
  .data.impure_data
-                0x20000120       0x60 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-impure.o)
+                0x20000130       0x60 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-impure.o)
  .data._impure_ptr
-                0x20000180        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-impure.o)
-                0x20000180                _impure_ptr
-                0x20000184                . = ALIGN (0x4)
-                0x20000184                PROVIDE (__preinit_array_start, .)
+                0x20000190        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-impure.o)
+                0x20000190                _impure_ptr
+                0x20000194                . = ALIGN (0x4)
+                0x20000194                PROVIDE (__preinit_array_start, .)
  *(.preinit_array)
-                0x20000184                PROVIDE (__preinit_array_end, .)
-                0x20000184                . = ALIGN (0x4)
-                0x20000184                PROVIDE (__init_array_start, .)
+                0x20000194                PROVIDE (__preinit_array_end, .)
+                0x20000194                . = ALIGN (0x4)
+                0x20000194                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x20000184        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtbegin.o
-                0x20000188                PROVIDE (__init_array_end, .)
-                0x20000188                . = ALIGN (0x4)
-                0x20000188                PROVIDE (__fini_array_start, .)
+ .init_array    0x20000194        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtbegin.o
+                0x20000198                PROVIDE (__init_array_end, .)
+                0x20000198                . = ALIGN (0x4)
+                0x20000198                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array)
- .fini_array    0x20000188        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtbegin.o
-                0x2000018c                PROVIDE (__fini_array_end, .)
-                0x2000018c                . = ALIGN (0x4)
-                0x2000018c                __data_end__ = .
+ .fini_array    0x20000198        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtbegin.o
+                0x2000019c                PROVIDE (__fini_array_end, .)
+                0x2000019c                . = ALIGN (0x4)
+                0x2000019c                __data_end__ = .
 
-.jcr            0x2000018c        0x0 load address 0x08003e38
- .jcr           0x2000018c        0x0 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtbegin.o
+.jcr            0x2000019c        0x0 load address 0x08004b2c
+ .jcr           0x2000019c        0x0 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtbegin.o
 
-.igot.plt       0x2000018c        0x0 load address 0x08003e38
+.igot.plt       0x2000019c        0x0 load address 0x08004b2c
  .igot.plt      0x00000000        0x0 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtbegin.o
 
-.bss            0x2000018c       0x3c load address 0x08003e38
-                0x2000018c                __bss_start__ = .
+.bss            0x2000019c       0x40 load address 0x08004b2c
+                0x2000019c                __bss_start__ = .
  *(.bss*)
- .bss           0x2000018c       0x1c c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtbegin.o
+ .bss           0x2000019c       0x1c c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtbegin.o
  .bss.btn_pressed
-                0x200001a8        0x4 obj\debug\src\button.o
+                0x200001b8        0x4 obj\debug\src\button.o
  .bss.ow_akt_delay
-                0x200001ac        0x4 obj\debug\src\ds18b20.o
- .bss.flags     0x200001b0        0x4 obj\debug\src\main.o
-                0x200001b0                flags
+                0x200001bc        0x4 obj\debug\src\ds18b20.o
+ .bss.DataVar   0x200001c0        0x2 obj\debug\src\eeprom.o
+                0x200001c0                DataVar
+ *fill*         0x200001c2        0x2 
+ .bss.flags     0x200001c4        0x4 obj\debug\src\main.o
+                0x200001c4                flags
  .bss.lcd_timeout
-                0x200001b4        0x4 obj\debug\src\main.o
-                0x200001b4                lcd_timeout
+                0x200001c8        0x4 obj\debug\src\main.o
+                0x200001c8                lcd_timeout
  .bss.__malloc_sbrk_start
-                0x200001b8        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-mallocr.o)
-                0x200001b8                __malloc_sbrk_start
+                0x200001cc        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-mallocr.o)
+                0x200001cc                __malloc_sbrk_start
  .bss.__malloc_free_list
-                0x200001bc        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-mallocr.o)
-                0x200001bc                __malloc_free_list
+                0x200001d0        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-mallocr.o)
+                0x200001d0                __malloc_free_list
  .bss.heap_end.4240
-                0x200001c0        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(sbrk.o)
+                0x200001d4        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(sbrk.o)
  *(COMMON)
- COMMON         0x200001c4        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-reent.o)
-                0x200001c4                errno
-                0x200001c8                __bss_end__ = .
+ COMMON         0x200001d8        0x4 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-reent.o)
+                0x200001d8                errno
+                0x200001dc                __bss_end__ = .
 
-.heap           0x200001c8        0x0
-                0x200001c8                __end__ = .
-                0x200001c8                end = __end__
+.heap           0x200001e0        0x0
+                0x200001e0                __end__ = .
+                0x200001e0                end = __end__
  *(.heap*)
- .heap          0x200001c8        0x0 obj\debug\src\startup_stm32f37x.o
-                0x200001c8                __HeapLimit = .
+ .heap          0x200001e0        0x0 obj\debug\src\startup_stm32f37x.o
+                0x200001e0                __HeapLimit = .
 
-.stack_dummy    0x200001c8      0x100
+.stack_dummy    0x200001e0      0x100
  *(.stack)
- .stack         0x200001c8      0x100 obj\debug\src\startup_stm32f37x.o
+ .stack         0x200001e0      0x100 obj\debug\src\startup_stm32f37x.o
                 0x20006000                __StackTop = (ORIGIN (RAM) + 0x6000)
                 0x20005f00                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
                 0x20006000                PROVIDE (__stack, __StackTop)
@@ -4134,6 +4116,7 @@ LOAD obj\debug\spl\src\stm32f37x_wwdg.o
 LOAD obj\debug\src\button.o
 LOAD obj\debug\src\ds18b20.o
 LOAD obj\debug\src\hd44780.o
+LOAD obj\debug\src\eeprom.o
 LOAD obj\debug\src\encoder.o
 LOAD obj\debug\src\main.o
 LOAD obj\debug\src\startup_stm32f37x.o
@@ -4159,286 +4142,314 @@ OUTPUT(bin\Debug\Solarsteuerung.elf elf32-littlearm)
  .ARM.attributes
                 0x00000068       0x33 obj\debug\spl\src\stm32f37x_exti.o
  .ARM.attributes
-                0x0000009b       0x33 obj\debug\spl\src\stm32f37x_gpio.o
+                0x0000009b       0x33 obj\debug\spl\src\stm32f37x_flash.o
  .ARM.attributes
-                0x000000ce       0x33 obj\debug\spl\src\stm32f37x_misc.o
+                0x000000ce       0x33 obj\debug\spl\src\stm32f37x_gpio.o
  .ARM.attributes
-                0x00000101       0x33 obj\debug\spl\src\stm32f37x_rcc.o
+                0x00000101       0x33 obj\debug\spl\src\stm32f37x_misc.o
  .ARM.attributes
-                0x00000134       0x33 obj\debug\spl\src\stm32f37x_syscfg.o
+                0x00000134       0x33 obj\debug\spl\src\stm32f37x_rcc.o
  .ARM.attributes
-                0x00000167       0x33 obj\debug\spl\src\stm32f37x_tim.o
+                0x00000167       0x33 obj\debug\spl\src\stm32f37x_syscfg.o
  .ARM.attributes
-                0x0000019a       0x33 obj\debug\src\button.o
+                0x0000019a       0x33 obj\debug\spl\src\stm32f37x_tim.o
  .ARM.attributes
-                0x000001cd       0x33 obj\debug\src\ds18b20.o
+                0x000001cd       0x33 obj\debug\src\button.o
  .ARM.attributes
-                0x00000200       0x33 obj\debug\src\hd44780.o
+                0x00000200       0x33 obj\debug\src\ds18b20.o
  .ARM.attributes
-                0x00000233       0x33 obj\debug\src\encoder.o
+                0x00000233       0x33 obj\debug\src\hd44780.o
  .ARM.attributes
-                0x00000266       0x33 obj\debug\src\main.o
+                0x00000266       0x33 obj\debug\src\eeprom.o
  .ARM.attributes
-                0x00000299       0x1b obj\debug\src\startup_stm32f37x.o
+                0x00000299       0x33 obj\debug\src\encoder.o
  .ARM.attributes
-                0x000002b4       0x33 obj\debug\src\system_stm32f37x.o
+                0x000002cc       0x33 obj\debug\src\main.o
  .ARM.attributes
-                0x000002e7       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-exit.o)
+                0x000002ff       0x1b obj\debug\src\startup_stm32f37x.o
  .ARM.attributes
-                0x00000315       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-impure.o)
+                0x0000031a       0x33 obj\debug\src\system_stm32f37x.o
  .ARM.attributes
-                0x00000343       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-init.o)
+                0x0000034d       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-exit.o)
  .ARM.attributes
-                0x00000371       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memset.o)
+                0x0000037b       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-impure.o)
  .ARM.attributes
-                0x0000039f       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-snprintf.o)
+                0x000003a9       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-init.o)
  .ARM.attributes
-                0x000003cd       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-svfprintf.o)
+                0x000003d7       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memset.o)
  .ARM.attributes
-                0x000003fb       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-vfprintf_i.o)
+                0x00000405       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-snprintf.o)
  .ARM.attributes
-                0x00000429       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memchr-stub.o)
+                0x00000433       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-svfprintf.o)
  .ARM.attributes
-                0x00000457       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memcpy-stub.o)
+                0x00000461       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-vfprintf_i.o)
  .ARM.attributes
-                0x00000485       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memmove.o)
+                0x0000048f       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memchr-stub.o)
  .ARM.attributes
-                0x000004b3       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-freer.o)
+                0x000004bd       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x000004e1       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-mallocr.o)
+                0x000004eb       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memmove.o)
  .ARM.attributes
-                0x0000050f       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-reallocr.o)
+                0x00000519       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-freer.o)
  .ARM.attributes
-                0x0000053d       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-sbrkr.o)
+                0x00000547       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-mallocr.o)
  .ARM.attributes
-                0x0000056b       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-strlen.o)
+                0x00000575       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-reallocr.o)
  .ARM.attributes
-                0x00000599       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-msizer.o)
+                0x000005a3       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x000005c7       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-reent.o)
+                0x000005d1       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-strlen.o)
  .ARM.attributes
-                0x000005f5       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(sbrk.o)
+                0x000005ff       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-msizer.o)
  .ARM.attributes
-                0x00000623       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(_exit.o)
+                0x0000062d       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-reent.o)
  .ARM.attributes
-                0x00000651       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtend.o
+                0x0000065b       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(sbrk.o)
  .ARM.attributes
-                0x0000067f       0x1e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtn.o
+                0x00000689       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x000006b7       0x2e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtend.o
+ .ARM.attributes
+                0x000006e5       0x1e c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m/crtn.o
 
-.comment        0x00000000       0x86
- .comment       0x00000000       0x4e obj\debug\spl\src\stm32f37x_exti.o
-                                 0x4f (size before relaxing)
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_gpio.o
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_misc.o
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_rcc.o
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_syscfg.o
- .comment       0x00000000       0x4f obj\debug\spl\src\stm32f37x_tim.o
- .comment       0x00000000       0x4f obj\debug\src\button.o
- .comment       0x00000000       0x4f obj\debug\src\ds18b20.o
- .comment       0x00000000       0x4f obj\debug\src\hd44780.o
- .comment       0x00000000       0x4f obj\debug\src\encoder.o
- .comment       0x0000004e       0x38 obj\debug\src\main.o
+.comment        0x00000000       0x38
+ .comment       0x00000000       0x38 obj\debug\spl\src\stm32f37x_exti.o
                                  0x39 (size before relaxing)
- .comment       0x00000000       0x4f obj\debug\src\system_stm32f37x.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_flash.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_gpio.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_misc.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_rcc.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_syscfg.o
+ .comment       0x00000000       0x39 obj\debug\spl\src\stm32f37x_tim.o
+ .comment       0x00000000       0x39 obj\debug\src\button.o
+ .comment       0x00000000       0x39 obj\debug\src\ds18b20.o
+ .comment       0x00000000       0x39 obj\debug\src\hd44780.o
+ .comment       0x00000000       0x39 obj\debug\src\eeprom.o
+ .comment       0x00000000       0x39 obj\debug\src\encoder.o
+ .comment       0x00000000       0x39 obj\debug\src\main.o
+ .comment       0x00000000       0x39 obj\debug\src\system_stm32f37x.o
 
-.debug_info     0x00000000     0x72cc
- .debug_info    0x00000000      0x37d obj\debug\spl\src\stm32f37x_exti.o
- .debug_info    0x0000037d      0x643 obj\debug\spl\src\stm32f37x_gpio.o
- .debug_info    0x000009c0      0x59a obj\debug\spl\src\stm32f37x_misc.o
- .debug_info    0x00000f5a      0xb2f obj\debug\spl\src\stm32f37x_rcc.o
- .debug_info    0x00001a89      0x35a obj\debug\spl\src\stm32f37x_syscfg.o
- .debug_info    0x00001de3     0x1e2d obj\debug\spl\src\stm32f37x_tim.o
- .debug_info    0x00003c10      0x8b5 obj\debug\src\button.o
- .debug_info    0x000044c5      0xd1a obj\debug\src\ds18b20.o
- .debug_info    0x000051df      0x47b obj\debug\src\hd44780.o
- .debug_info    0x0000565a      0x775 obj\debug\src\encoder.o
- .debug_info    0x00005dcf      0xf88 obj\debug\src\main.o
- .debug_info    0x00006d57       0x8f obj\debug\src\startup_stm32f37x.o
- .debug_info    0x00006de6      0x4e6 obj\debug\src\system_stm32f37x.o
+.debug_info     0x00000000     0x8277
+ .debug_info    0x00000000      0x393 obj\debug\spl\src\stm32f37x_exti.o
+ .debug_info    0x00000393      0x8e8 obj\debug\spl\src\stm32f37x_flash.o
+ .debug_info    0x00000c7b      0x66f obj\debug\spl\src\stm32f37x_gpio.o
+ .debug_info    0x000012ea      0x5bb obj\debug\spl\src\stm32f37x_misc.o
+ .debug_info    0x000018a5      0xb5b obj\debug\spl\src\stm32f37x_rcc.o
+ .debug_info    0x00002400      0x37b obj\debug\spl\src\stm32f37x_syscfg.o
+ .debug_info    0x0000277b     0x1e59 obj\debug\spl\src\stm32f37x_tim.o
+ .debug_info    0x000045d4      0x8e1 obj\debug\src\button.o
+ .debug_info    0x00004eb5      0xd46 obj\debug\src\ds18b20.o
+ .debug_info    0x00005bfb      0x4a7 obj\debug\src\hd44780.o
+ .debug_info    0x000060a2      0x451 obj\debug\src\eeprom.o
+ .debug_info    0x000064f3      0x7a1 obj\debug\src\encoder.o
+ .debug_info    0x00006c94     0x1044 obj\debug\src\main.o
+ .debug_info    0x00007cd8       0x8d obj\debug\src\startup_stm32f37x.o
+ .debug_info    0x00007d65      0x512 obj\debug\src\system_stm32f37x.o
 
-.debug_abbrev   0x00000000     0x12f9
+.debug_abbrev   0x00000000     0x161b
  .debug_abbrev  0x00000000      0x1ac obj\debug\spl\src\stm32f37x_exti.o
- .debug_abbrev  0x000001ac      0x19b obj\debug\spl\src\stm32f37x_gpio.o
- .debug_abbrev  0x00000347      0x12e obj\debug\spl\src\stm32f37x_misc.o
- .debug_abbrev  0x00000475      0x1ea obj\debug\spl\src\stm32f37x_rcc.o
- .debug_abbrev  0x0000065f      0x161 obj\debug\spl\src\stm32f37x_syscfg.o
- .debug_abbrev  0x000007c0      0x18e obj\debug\spl\src\stm32f37x_tim.o
- .debug_abbrev  0x0000094e      0x15d obj\debug\src\button.o
- .debug_abbrev  0x00000aab      0x22f obj\debug\src\ds18b20.o
- .debug_abbrev  0x00000cda      0x193 obj\debug\src\hd44780.o
- .debug_abbrev  0x00000e6d      0x132 obj\debug\src\encoder.o
- .debug_abbrev  0x00000f9f      0x209 obj\debug\src\main.o
- .debug_abbrev  0x000011a8       0x14 obj\debug\src\startup_stm32f37x.o
- .debug_abbrev  0x000011bc      0x13d obj\debug\src\system_stm32f37x.o
+ .debug_abbrev  0x000001ac      0x1b9 obj\debug\spl\src\stm32f37x_flash.o
+ .debug_abbrev  0x00000365      0x19b obj\debug\spl\src\stm32f37x_gpio.o
+ .debug_abbrev  0x00000500      0x12e obj\debug\spl\src\stm32f37x_misc.o
+ .debug_abbrev  0x0000062e      0x1ea obj\debug\spl\src\stm32f37x_rcc.o
+ .debug_abbrev  0x00000818      0x161 obj\debug\spl\src\stm32f37x_syscfg.o
+ .debug_abbrev  0x00000979      0x18e obj\debug\spl\src\stm32f37x_tim.o
+ .debug_abbrev  0x00000b07      0x15d obj\debug\src\button.o
+ .debug_abbrev  0x00000c64      0x22f obj\debug\src\ds18b20.o
+ .debug_abbrev  0x00000e93      0x193 obj\debug\src\hd44780.o
+ .debug_abbrev  0x00001026      0x14f obj\debug\src\eeprom.o
+ .debug_abbrev  0x00001175      0x132 obj\debug\src\encoder.o
+ .debug_abbrev  0x000012a7      0x223 obj\debug\src\main.o
+ .debug_abbrev  0x000014ca       0x14 obj\debug\src\startup_stm32f37x.o
+ .debug_abbrev  0x000014de      0x13d obj\debug\src\system_stm32f37x.o
 
-.debug_loc      0x00000000     0x2d68
+.debug_loc      0x00000000     0x359c
  .debug_loc     0x00000000      0x1b4 obj\debug\spl\src\stm32f37x_exti.o
- .debug_loc     0x000001b4      0x2d8 obj\debug\spl\src\stm32f37x_gpio.o
- .debug_loc     0x0000048c      0x118 obj\debug\spl\src\stm32f37x_misc.o
- .debug_loc     0x000005a4      0x864 obj\debug\spl\src\stm32f37x_rcc.o
- .debug_loc     0x00000e08      0x224 obj\debug\spl\src\stm32f37x_syscfg.o
- .debug_loc     0x0000102c     0x13e8 obj\debug\spl\src\stm32f37x_tim.o
- .debug_loc     0x00002414      0x14c obj\debug\src\button.o
- .debug_loc     0x00002560      0x3b6 obj\debug\src\ds18b20.o
- .debug_loc     0x00002916      0x1c0 obj\debug\src\hd44780.o
- .debug_loc     0x00002ad6       0x64 obj\debug\src\encoder.o
- .debug_loc     0x00002b3a      0x192 obj\debug\src\main.o
- .debug_loc     0x00002ccc       0x9c obj\debug\src\system_stm32f37x.o
+ .debug_loc     0x000001b4      0x63c obj\debug\spl\src\stm32f37x_flash.o
+ .debug_loc     0x000007f0      0x2d8 obj\debug\spl\src\stm32f37x_gpio.o
+ .debug_loc     0x00000ac8      0x118 obj\debug\spl\src\stm32f37x_misc.o
+ .debug_loc     0x00000be0      0x864 obj\debug\spl\src\stm32f37x_rcc.o
+ .debug_loc     0x00001444      0x224 obj\debug\spl\src\stm32f37x_syscfg.o
+ .debug_loc     0x00001668     0x13e8 obj\debug\spl\src\stm32f37x_tim.o
+ .debug_loc     0x00002a50      0x14c obj\debug\src\button.o
+ .debug_loc     0x00002b9c      0x3b6 obj\debug\src\ds18b20.o
+ .debug_loc     0x00002f52      0x1c0 obj\debug\src\hd44780.o
+ .debug_loc     0x00003112      0x188 obj\debug\src\eeprom.o
+ .debug_loc     0x0000329a       0x64 obj\debug\src\encoder.o
+ .debug_loc     0x000032fe      0x202 obj\debug\src\main.o
+ .debug_loc     0x00003500       0x9c obj\debug\src\system_stm32f37x.o
 
-.debug_aranges  0x00000000      0x7e0
+.debug_aranges  0x00000000      0x948
  .debug_aranges
                 0x00000000       0x58 obj\debug\spl\src\stm32f37x_exti.o
  .debug_aranges
-                0x00000058       0x80 obj\debug\spl\src\stm32f37x_gpio.o
+                0x00000058      0x108 obj\debug\spl\src\stm32f37x_flash.o
  .debug_aranges
-                0x000000d8       0x40 obj\debug\spl\src\stm32f37x_misc.o
+                0x00000160       0x80 obj\debug\spl\src\stm32f37x_gpio.o
  .debug_aranges
-                0x00000118      0x150 obj\debug\spl\src\stm32f37x_rcc.o
+                0x000001e0       0x40 obj\debug\spl\src\stm32f37x_misc.o
  .debug_aranges
-                0x00000268       0x68 obj\debug\spl\src\stm32f37x_syscfg.o
+                0x00000220      0x150 obj\debug\spl\src\stm32f37x_rcc.o
  .debug_aranges
-                0x000002d0      0x2f0 obj\debug\spl\src\stm32f37x_tim.o
+                0x00000370       0x68 obj\debug\spl\src\stm32f37x_syscfg.o
  .debug_aranges
-                0x000005c0       0x50 obj\debug\src\button.o
+                0x000003d8      0x2f0 obj\debug\spl\src\stm32f37x_tim.o
  .debug_aranges
-                0x00000610       0xa8 obj\debug\src\ds18b20.o
+                0x000006c8       0x50 obj\debug\src\button.o
  .debug_aranges
-                0x000006b8       0x58 obj\debug\src\hd44780.o
+                0x00000718       0xa8 obj\debug\src\ds18b20.o
  .debug_aranges
-                0x00000710       0x28 obj\debug\src\encoder.o
+                0x000007c0       0x58 obj\debug\src\hd44780.o
  .debug_aranges
-                0x00000738       0x58 obj\debug\src\main.o
+                0x00000818       0x50 obj\debug\src\eeprom.o
  .debug_aranges
-                0x00000790       0x20 obj\debug\src\startup_stm32f37x.o
+                0x00000868       0x28 obj\debug\src\encoder.o
  .debug_aranges
-                0x000007b0       0x30 obj\debug\src\system_stm32f37x.o
+                0x00000890       0x68 obj\debug\src\main.o
+ .debug_aranges
+                0x000008f8       0x20 obj\debug\src\startup_stm32f37x.o
+ .debug_aranges
+                0x00000918       0x30 obj\debug\src\system_stm32f37x.o
 
-.debug_ranges   0x00000000      0x700
+.debug_ranges   0x00000000      0x848
  .debug_ranges  0x00000000       0x48 obj\debug\spl\src\stm32f37x_exti.o
- .debug_ranges  0x00000048       0x70 obj\debug\spl\src\stm32f37x_gpio.o
- .debug_ranges  0x000000b8       0x30 obj\debug\spl\src\stm32f37x_misc.o
- .debug_ranges  0x000000e8      0x140 obj\debug\spl\src\stm32f37x_rcc.o
- .debug_ranges  0x00000228       0x58 obj\debug\spl\src\stm32f37x_syscfg.o
- .debug_ranges  0x00000280      0x2e0 obj\debug\spl\src\stm32f37x_tim.o
- .debug_ranges  0x00000560       0x40 obj\debug\src\button.o
- .debug_ranges  0x000005a0       0x98 obj\debug\src\ds18b20.o
- .debug_ranges  0x00000638       0x48 obj\debug\src\hd44780.o
- .debug_ranges  0x00000680       0x18 obj\debug\src\encoder.o
- .debug_ranges  0x00000698       0x48 obj\debug\src\main.o
- .debug_ranges  0x000006e0       0x20 obj\debug\src\system_stm32f37x.o
+ .debug_ranges  0x00000048       0xf8 obj\debug\spl\src\stm32f37x_flash.o
+ .debug_ranges  0x00000140       0x70 obj\debug\spl\src\stm32f37x_gpio.o
+ .debug_ranges  0x000001b0       0x30 obj\debug\spl\src\stm32f37x_misc.o
+ .debug_ranges  0x000001e0      0x140 obj\debug\spl\src\stm32f37x_rcc.o
+ .debug_ranges  0x00000320       0x58 obj\debug\spl\src\stm32f37x_syscfg.o
+ .debug_ranges  0x00000378      0x2e0 obj\debug\spl\src\stm32f37x_tim.o
+ .debug_ranges  0x00000658       0x40 obj\debug\src\button.o
+ .debug_ranges  0x00000698       0x98 obj\debug\src\ds18b20.o
+ .debug_ranges  0x00000730       0x48 obj\debug\src\hd44780.o
+ .debug_ranges  0x00000778       0x40 obj\debug\src\eeprom.o
+ .debug_ranges  0x000007b8       0x18 obj\debug\src\encoder.o
+ .debug_ranges  0x000007d0       0x58 obj\debug\src\main.o
+ .debug_ranges  0x00000828       0x20 obj\debug\src\system_stm32f37x.o
 
-.debug_macro    0x00000000     0x3cc6
- .debug_macro   0x00000000      0x1ab obj\debug\spl\src\stm32f37x_exti.o
- .debug_macro   0x000001ab       0xd6 obj\debug\spl\src\stm32f37x_exti.o
- .debug_macro   0x00000281      0x1a5 obj\debug\spl\src\stm32f37x_gpio.o
- .debug_macro   0x00000426      0x1a9 obj\debug\spl\src\stm32f37x_gpio.o
- .debug_macro   0x000005cf      0x1ab obj\debug\spl\src\stm32f37x_misc.o
- .debug_macro   0x0000077a       0x82 obj\debug\spl\src\stm32f37x_misc.o
- .debug_macro   0x000007fc      0x235 obj\debug\spl\src\stm32f37x_rcc.o
- .debug_macro   0x00000a31      0x56c obj\debug\spl\src\stm32f37x_rcc.o
- .debug_macro   0x00000f9d      0x1ab obj\debug\spl\src\stm32f37x_syscfg.o
- .debug_macro   0x00001148      0x162 obj\debug\spl\src\stm32f37x_syscfg.o
- .debug_macro   0x000012aa      0x1c1 obj\debug\spl\src\stm32f37x_tim.o
- .debug_macro   0x0000146b      0x74a obj\debug\spl\src\stm32f37x_tim.o
- .debug_macro   0x00001bb5      0x1bd obj\debug\src\button.o
- .debug_macro   0x00001d72      0x19f obj\debug\src\ds18b20.o
- .debug_macro   0x00001f11      0x1a5 obj\debug\src\hd44780.o
- .debug_macro   0x000020b6      0x19f obj\debug\src\encoder.o
- .debug_macro   0x00002255      0x2c3 obj\debug\src\main.o
- .debug_macro   0x00002518      0x826 obj\debug\src\main.o
- .debug_macro   0x00002d3e       0x58 obj\debug\src\main.o
- .debug_macro   0x00002d96       0x16 obj\debug\src\main.o
- .debug_macro   0x00002dac       0x35 obj\debug\src\main.o
- .debug_macro   0x00002de1       0x16 obj\debug\src\main.o
- .debug_macro   0x00002df7       0x97 obj\debug\src\main.o
- .debug_macro   0x00002e8e       0x10 obj\debug\src\main.o
- .debug_macro   0x00002e9e       0xf5 obj\debug\src\main.o
- .debug_macro   0x00002f93       0x4a obj\debug\src\main.o
- .debug_macro   0x00002fdd       0x52 obj\debug\src\main.o
- .debug_macro   0x0000302f       0x16 obj\debug\src\main.o
- .debug_macro   0x00003045       0x43 obj\debug\src\main.o
- .debug_macro   0x00003088      0x180 obj\debug\src\main.o
- .debug_macro   0x00003208       0x10 obj\debug\src\main.o
- .debug_macro   0x00003218       0x22 obj\debug\src\main.o
- .debug_macro   0x0000323a       0xbd obj\debug\src\main.o
- .debug_macro   0x000032f7       0x16 obj\debug\src\main.o
- .debug_macro   0x0000330d      0x14a obj\debug\src\main.o
- .debug_macro   0x00003457      0x20f obj\debug\src\main.o
- .debug_macro   0x00003666       0x35 obj\debug\src\main.o
- .debug_macro   0x0000369b      0x452 obj\debug\src\main.o
- .debug_macro   0x00003aed       0x16 obj\debug\src\main.o
- .debug_macro   0x00003b03       0x22 obj\debug\src\main.o
- .debug_macro   0x00003b25      0x1a1 obj\debug\src\system_stm32f37x.o
+.debug_macro    0x00000000     0x3a98
+ .debug_macro   0x00000000      0x189 obj\debug\spl\src\stm32f37x_exti.o
+ .debug_macro   0x00000189       0xd6 obj\debug\spl\src\stm32f37x_exti.o
+ .debug_macro   0x0000025f      0x183 obj\debug\spl\src\stm32f37x_flash.o
+ .debug_macro   0x000003e2      0x328 obj\debug\spl\src\stm32f37x_flash.o
+ .debug_macro   0x0000070a      0x183 obj\debug\spl\src\stm32f37x_gpio.o
+ .debug_macro   0x0000088d      0x1a9 obj\debug\spl\src\stm32f37x_gpio.o
+ .debug_macro   0x00000a36      0x189 obj\debug\spl\src\stm32f37x_misc.o
+ .debug_macro   0x00000bbf       0x82 obj\debug\spl\src\stm32f37x_misc.o
+ .debug_macro   0x00000c41      0x213 obj\debug\spl\src\stm32f37x_rcc.o
+ .debug_macro   0x00000e54      0x56c obj\debug\spl\src\stm32f37x_rcc.o
+ .debug_macro   0x000013c0      0x189 obj\debug\spl\src\stm32f37x_syscfg.o
+ .debug_macro   0x00001549      0x162 obj\debug\spl\src\stm32f37x_syscfg.o
+ .debug_macro   0x000016ab      0x19f obj\debug\spl\src\stm32f37x_tim.o
+ .debug_macro   0x0000184a      0x74a obj\debug\spl\src\stm32f37x_tim.o
+ .debug_macro   0x00001f94      0x19b obj\debug\src\button.o
+ .debug_macro   0x0000212f      0x17d obj\debug\src\ds18b20.o
+ .debug_macro   0x000022ac      0x183 obj\debug\src\hd44780.o
+ .debug_macro   0x0000242f      0x188 obj\debug\src\eeprom.o
+ .debug_macro   0x000025b7       0x64 obj\debug\src\eeprom.o
+ .debug_macro   0x0000261b      0x17d obj\debug\src\encoder.o
+ .debug_macro   0x00002798      0x30d obj\debug\src\main.o
+ .debug_macro   0x00002aa5       0x58 obj\debug\src\main.o
+ .debug_macro   0x00002afd       0x35 obj\debug\src\main.o
+ .debug_macro   0x00002b32       0xa3 obj\debug\src\main.o
+ .debug_macro   0x00002bd5       0x16 obj\debug\src\main.o
+ .debug_macro   0x00002beb       0x97 obj\debug\src\main.o
+ .debug_macro   0x00002c82       0x10 obj\debug\src\main.o
+ .debug_macro   0x00002c92       0xf5 obj\debug\src\main.o
+ .debug_macro   0x00002d87       0x4a obj\debug\src\main.o
+ .debug_macro   0x00002dd1       0x52 obj\debug\src\main.o
+ .debug_macro   0x00002e23       0x16 obj\debug\src\main.o
+ .debug_macro   0x00002e39       0x43 obj\debug\src\main.o
+ .debug_macro   0x00002e7c      0x180 obj\debug\src\main.o
+ .debug_macro   0x00002ffc       0x10 obj\debug\src\main.o
+ .debug_macro   0x0000300c       0x22 obj\debug\src\main.o
+ .debug_macro   0x0000302e       0xbd obj\debug\src\main.o
+ .debug_macro   0x000030eb       0x16 obj\debug\src\main.o
+ .debug_macro   0x00003101      0x14a obj\debug\src\main.o
+ .debug_macro   0x0000324b      0x20f obj\debug\src\main.o
+ .debug_macro   0x0000345a       0x35 obj\debug\src\main.o
+ .debug_macro   0x0000348f      0x452 obj\debug\src\main.o
+ .debug_macro   0x000038e1       0x16 obj\debug\src\main.o
+ .debug_macro   0x000038f7       0x22 obj\debug\src\main.o
+ .debug_macro   0x00003919      0x17f obj\debug\src\system_stm32f37x.o
 
-.debug_line     0x00000000     0x500c
- .debug_line    0x00000000      0x57c obj\debug\spl\src\stm32f37x_exti.o
- .debug_line    0x0000057c      0x5fc obj\debug\spl\src\stm32f37x_gpio.o
- .debug_line    0x00000b78      0x530 obj\debug\spl\src\stm32f37x_misc.o
- .debug_line    0x000010a8      0x832 obj\debug\spl\src\stm32f37x_rcc.o
- .debug_line    0x000018da      0x596 obj\debug\spl\src\stm32f37x_syscfg.o
- .debug_line    0x00001e70      0xd02 obj\debug\spl\src\stm32f37x_tim.o
- .debug_line    0x00002b72      0x571 obj\debug\src\button.o
- .debug_line    0x000030e3      0x72c obj\debug\src\ds18b20.o
- .debug_line    0x0000380f      0x5b2 obj\debug\src\hd44780.o
- .debug_line    0x00003dc1      0x4fd obj\debug\src\encoder.o
- .debug_line    0x000042be      0x751 obj\debug\src\main.o
- .debug_line    0x00004a0f       0xba obj\debug\src\startup_stm32f37x.o
- .debug_line    0x00004ac9      0x543 obj\debug\src\system_stm32f37x.o
+.debug_line     0x00000000     0x5cf1
+ .debug_line    0x00000000      0x561 obj\debug\spl\src\stm32f37x_exti.o
+ .debug_line    0x00000561      0x7a0 obj\debug\spl\src\stm32f37x_flash.o
+ .debug_line    0x00000d01      0x5e1 obj\debug\spl\src\stm32f37x_gpio.o
+ .debug_line    0x000012e2      0x515 obj\debug\spl\src\stm32f37x_misc.o
+ .debug_line    0x000017f7      0x817 obj\debug\spl\src\stm32f37x_rcc.o
+ .debug_line    0x0000200e      0x57b obj\debug\spl\src\stm32f37x_syscfg.o
+ .debug_line    0x00002589      0xce7 obj\debug\spl\src\stm32f37x_tim.o
+ .debug_line    0x00003270      0x556 obj\debug\src\button.o
+ .debug_line    0x000037c6      0x711 obj\debug\src\ds18b20.o
+ .debug_line    0x00003ed7      0x597 obj\debug\src\hd44780.o
+ .debug_line    0x0000446e      0x613 obj\debug\src\eeprom.o
+ .debug_line    0x00004a81      0x4e2 obj\debug\src\encoder.o
+ .debug_line    0x00004f63      0x7ac obj\debug\src\main.o
+ .debug_line    0x0000570f       0xba obj\debug\src\startup_stm32f37x.o
+ .debug_line    0x000057c9      0x528 obj\debug\src\system_stm32f37x.o
 
-.debug_str      0x00000000    0x4da11
- .debug_str     0x00000000    0x48176 obj\debug\spl\src\stm32f37x_exti.o
-                              0x4832e (size before relaxing)
- .debug_str     0x00048176      0x2b9 obj\debug\spl\src\stm32f37x_gpio.o
-                              0x48447 (size before relaxing)
- .debug_str     0x0004842f      0x241 obj\debug\spl\src\stm32f37x_misc.o
-                              0x483ab (size before relaxing)
- .debug_str     0x00048670      0x998 obj\debug\spl\src\stm32f37x_rcc.o
-                              0x48b4f (size before relaxing)
- .debug_str     0x00049008      0x1cb obj\debug\spl\src\stm32f37x_syscfg.o
-                              0x4833c (size before relaxing)
- .debug_str     0x000491d3      0xbda obj\debug\spl\src\stm32f37x_tim.o
-                              0x48deb (size before relaxing)
- .debug_str     0x00049dad      0x49e obj\debug\src\button.o
-                              0x489c4 (size before relaxing)
- .debug_str     0x0004a24b      0x1fb obj\debug\src\ds18b20.o
-                              0x48b99 (size before relaxing)
- .debug_str     0x0004a446       0xac obj\debug\src\hd44780.o
-                              0x483c3 (size before relaxing)
- .debug_str     0x0004a4f2       0x2b obj\debug\src\encoder.o
-                              0x48835 (size before relaxing)
- .debug_str     0x0004a51d     0x3471 obj\debug\src\main.o
-                              0x4b9bc (size before relaxing)
- .debug_str     0x0004d98e       0x83 obj\debug\src\system_stm32f37x.o
-                              0x482c0 (size before relaxing)
+.debug_str      0x00000000    0x4dce1
+ .debug_str     0x00000000    0x47fdf obj\debug\spl\src\stm32f37x_exti.o
+                              0x48173 (size before relaxing)
+ .debug_str     0x00047fdf      0x390 obj\debug\spl\src\stm32f37x_flash.o
+                              0x483ca (size before relaxing)
+ .debug_str     0x0004836f      0x2a5 obj\debug\spl\src\stm32f37x_gpio.o
+                              0x482a1 (size before relaxing)
+ .debug_str     0x00048614      0x238 obj\debug\spl\src\stm32f37x_misc.o
+                              0x481fa (size before relaxing)
+ .debug_str     0x0004884c      0x991 obj\debug\spl\src\stm32f37x_rcc.o
+                              0x489a9 (size before relaxing)
+ .debug_str     0x000491dd      0x1c2 obj\debug\spl\src\stm32f37x_syscfg.o
+                              0x4818b (size before relaxing)
+ .debug_str     0x0004939f      0xbda obj\debug\spl\src\stm32f37x_tim.o
+                              0x48c45 (size before relaxing)
+ .debug_str     0x00049f79      0x49e obj\debug\src\button.o
+                              0x4881e (size before relaxing)
+ .debug_str     0x0004a417      0x1fb obj\debug\src\ds18b20.o
+                              0x489f3 (size before relaxing)
+ .debug_str     0x0004a612       0xac obj\debug\src\hd44780.o
+                              0x4821d (size before relaxing)
+ .debug_str     0x0004a6be      0x3c6 obj\debug\src\eeprom.o
+                              0x483da (size before relaxing)
+ .debug_str     0x0004aa84       0x2b obj\debug\src\encoder.o
+                              0x4868f (size before relaxing)
+ .debug_str     0x0004aaaf     0x31ca obj\debug\src\main.o
+                              0x4bd9b (size before relaxing)
+ .debug_str     0x0004dc79       0x68 obj\debug\src\system_stm32f37x.o
+                              0x4811a (size before relaxing)
 
-.debug_frame    0x00000000     0x1c0c
+.debug_frame    0x00000000     0x20b0
  .debug_frame   0x00000000       0xec obj\debug\spl\src\stm32f37x_exti.o
- .debug_frame   0x000000ec      0x180 obj\debug\spl\src\stm32f37x_gpio.o
- .debug_frame   0x0000026c       0x9c obj\debug\spl\src\stm32f37x_misc.o
- .debug_frame   0x00000308      0x44c obj\debug\spl\src\stm32f37x_rcc.o
- .debug_frame   0x00000754      0x128 obj\debug\spl\src\stm32f37x_syscfg.o
- .debug_frame   0x0000087c      0xa20 obj\debug\spl\src\stm32f37x_tim.o
- .debug_frame   0x0000129c       0xd8 obj\debug\src\button.o
- .debug_frame   0x00001374      0x23c obj\debug\src\ds18b20.o
- .debug_frame   0x000015b0      0x10c obj\debug\src\hd44780.o
- .debug_frame   0x000016bc       0x4c obj\debug\src\encoder.o
- .debug_frame   0x00001708       0xf0 obj\debug\src\main.o
- .debug_frame   0x000017f8       0x64 obj\debug\src\system_stm32f37x.o
- .debug_frame   0x0000185c       0x28 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-exit.o)
- .debug_frame   0x00001884       0x2c c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-init.o)
- .debug_frame   0x000018b0       0x20 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memset.o)
- .debug_frame   0x000018d0       0x58 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-snprintf.o)
- .debug_frame   0x00001928       0x8c c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-svfprintf.o)
- .debug_frame   0x000019b4       0x60 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-vfprintf_i.o)
- .debug_frame   0x00001a14       0x28 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memchr-stub.o)
- .debug_frame   0x00001a3c       0x28 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memcpy-stub.o)
- .debug_frame   0x00001a64       0x28 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memmove.o)
- .debug_frame   0x00001a8c       0x2c c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-freer.o)
- .debug_frame   0x00001ab8       0x30 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-mallocr.o)
- .debug_frame   0x00001ae8       0x30 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-reallocr.o)
- .debug_frame   0x00001b18       0x2c c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-sbrkr.o)
- .debug_frame   0x00001b44       0x20 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-strlen.o)
- .debug_frame   0x00001b64       0x20 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-msizer.o)
- .debug_frame   0x00001b84       0x48 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-reent.o)
- .debug_frame   0x00001bcc       0x20 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(sbrk.o)
- .debug_frame   0x00001bec       0x20 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(_exit.o)
+ .debug_frame   0x000000ec      0x378 obj\debug\spl\src\stm32f37x_flash.o
+ .debug_frame   0x00000464      0x180 obj\debug\spl\src\stm32f37x_gpio.o
+ .debug_frame   0x000005e4       0x9c obj\debug\spl\src\stm32f37x_misc.o
+ .debug_frame   0x00000680      0x44c obj\debug\spl\src\stm32f37x_rcc.o
+ .debug_frame   0x00000acc      0x128 obj\debug\spl\src\stm32f37x_syscfg.o
+ .debug_frame   0x00000bf4      0xa20 obj\debug\spl\src\stm32f37x_tim.o
+ .debug_frame   0x00001614       0xd8 obj\debug\src\button.o
+ .debug_frame   0x000016ec      0x23c obj\debug\src\ds18b20.o
+ .debug_frame   0x00001928      0x10c obj\debug\src\hd44780.o
+ .debug_frame   0x00001a34       0xec obj\debug\src\eeprom.o
+ .debug_frame   0x00001b20       0x4c obj\debug\src\encoder.o
+ .debug_frame   0x00001b6c      0x130 obj\debug\src\main.o
+ .debug_frame   0x00001c9c       0x64 obj\debug\src\system_stm32f37x.o
+ .debug_frame   0x00001d00       0x28 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-exit.o)
+ .debug_frame   0x00001d28       0x2c c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-init.o)
+ .debug_frame   0x00001d54       0x20 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memset.o)
+ .debug_frame   0x00001d74       0x58 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-snprintf.o)
+ .debug_frame   0x00001dcc       0x8c c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-svfprintf.o)
+ .debug_frame   0x00001e58       0x60 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-vfprintf_i.o)
+ .debug_frame   0x00001eb8       0x28 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memchr-stub.o)
+ .debug_frame   0x00001ee0       0x28 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00001f08       0x28 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-memmove.o)
+ .debug_frame   0x00001f30       0x2c c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-freer.o)
+ .debug_frame   0x00001f5c       0x30 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00001f8c       0x30 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x00001fbc       0x2c c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-sbrkr.o)
+ .debug_frame   0x00001fe8       0x20 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-strlen.o)
+ .debug_frame   0x00002008       0x20 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-nano-msizer.o)
+ .debug_frame   0x00002028       0x48 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libc_n.a(lib_a-reent.o)
+ .debug_frame   0x00002070       0x20 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(sbrk.o)
+ .debug_frame   0x00002090       0x20 c:/program files (x86)/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a(_exit.o)
