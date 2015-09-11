@@ -1,0 +1,245 @@
+# depslib dependency file v1.0
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_adc.c
+	"stm32f37x_adc.h"
+	"stm32f37x_rcc.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_adc.h
+	"stm32f37x.h"
+
+1432839601 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\inc\stm32f37x.h
+	"core_cm4.h"
+	"system_stm32f37x.h"
+	<stdint.h>
+	"stm32f37x_conf.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\cmsis\core_cm4.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+	<core_cm4_simd.h>
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\cmsis\core_cm4_simd.h
+	<cmsis_iar.h>
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\inc\system_stm32f37x.h
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\inc\stm32f37x_conf.h
+	"stm32f37x_adc.h"
+	"stm32f37x_can.h"
+	"stm32f37x_cec.h"
+	"stm32f37x_crc.h"
+	"stm32f37x_comp.h"
+	"stm32f37x_dac.h"
+	"stm32f37x_dbgmcu.h"
+	"stm32f37x_dma.h"
+	"stm32f37x_exti.h"
+	"stm32f37x_flash.h"
+	"stm32f37x_gpio.h"
+	"stm32f37x_syscfg.h"
+	"stm32f37x_i2c.h"
+	"stm32f37x_iwdg.h"
+	"stm32f37x_pwr.h"
+	"stm32f37x_rcc.h"
+	"stm32f37x_rtc.h"
+	"stm32f37x_sdadc.h"
+	"stm32f37x_spi.h"
+	"stm32f37x_tim.h"
+	"stm32f37x_usart.h"
+	"stm32f37x_wwdg.h"
+	"stm32f37x_misc.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_can.h
+	"stm32f37x.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_cec.h
+	"stm32f37x.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_crc.h
+	"stm32f37x.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_comp.h
+	"stm32f37x.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_dac.h
+	"stm32f37x.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_dbgmcu.h
+	"stm32f37x.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_dma.h
+	"stm32f37x.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_exti.h
+	"stm32f37x.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_flash.h
+	"stm32f37x.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_gpio.h
+	"stm32f37x.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_syscfg.h
+	"stm32f37x.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_i2c.h
+	"stm32f37x.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_iwdg.h
+	"stm32f37x.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_pwr.h
+	"stm32f37x.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_rcc.h
+	"stm32f37x.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_rtc.h
+	"stm32f37x.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_sdadc.h
+	"stm32f37x.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_spi.h
+	"stm32f37x.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_tim.h
+	"stm32f37x.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_usart.h
+	"stm32f37x.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_wwdg.h
+	"stm32f37x.h"
+
+1432839352 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\inc\stm32f37x_misc.h
+	"stm32f37x.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_can.c
+	"stm32f37x_can.h"
+	"stm32f37x_rcc.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_cec.c
+	"stm32f37x_cec.h"
+	"stm32f37x_rcc.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_comp.c
+	"stm32f37x_comp.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_crc.c
+	"stm32f37x_crc.h"
+	"stm32f37x_rcc.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_dac.c
+	"stm32f37x_dac.h"
+	"stm32f37x_rcc.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_dbgmcu.c
+	"stm32f37x_dbgmcu.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_dma.c
+	"stm32f37x_dma.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_exti.c
+	"stm32f37x_exti.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_flash.c
+	"stm32f37x_flash.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_gpio.c
+	"stm32f37x_gpio.h"
+	"stm32f37x_rcc.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_i2c.c
+	"stm32f37x_i2c.h"
+	"stm32f37x_rcc.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_iwdg.c
+	"stm32f37x_iwdg.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_misc.c
+	"stm32f37x_misc.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_pwr.c
+	"stm32f37x_pwr.h"
+	"stm32f37x_rcc.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_rcc.c
+	"stm32f37x_rcc.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_rtc.c
+	"stm32f37x_rtc.h"
+	"stm32f37x_rcc.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_sdadc.c
+	"stm32f37x_sdadc.h"
+	"stm32f37x_rcc.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_spi.c
+	"stm32f37x_spi.h"
+	"stm32f37x_rcc.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_syscfg.c
+	"stm32f37x_syscfg.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_tim.c
+	"stm32f37x_tim.h"
+	"stm32f37x_rcc.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_usart.c
+	"stm32f37x_usart.h"
+	"stm32f37x_rcc.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\spl\src\stm32f37x_wwdg.c
+	"stm32f37x_wwdg.h"
+	"stm32f37x_rcc.h"
+
+1438796146 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\src\main.c
+	<stdio.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdlib.h>
+	"stm32f37x_conf.h"
+	"HD44780.h"
+	"DS18B20.h"
+	"encoder.h"
+	"Button.h"
+
+1432839352 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\src\startup_stm32f37x.s
+
+1433082408 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\src\system_stm32f37x.c
+	"stm32f37x.h"
+
+1432904232 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\src\hd74480.c
+	"stm32f37x_conf.h"
+	"HD44780.h"
+
+1432908247 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\inc\hd44780.h
+
+1432926993 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\src\hd44780.c
+	"stm32f37x_conf.h"
+	"HD44780.h"
+
+1435238850 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\inc\ds18b20.h
+
+1435610074 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\src\ds18b20.c
+	"stm32f37x_conf.h"
+	"DS18B20.h"
+
+1433536163 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\src\encoder.c
+	"stm32f37x_conf.h"
+	"encoder.h"
+
+1433520845 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\inc\encoder.h
+
+1435249574 source:c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\src\button.c
+	"stm32f37x_conf.h"
+	"Button.h"
+
+1433526117 c:\users\mobilworker\google drive\elektronik\em_blocks\projekte\solarsteuerung\inc\button.h
+

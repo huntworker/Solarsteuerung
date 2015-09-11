@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="SPL\inc\stm32f37x_exti.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3392" topLine="91" />
+		</Cursor>
+	</File>
+	<File name="SPL\inc\stm32f37x_gpio.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5080" topLine="144" />
+		</Cursor>
+	</File>
+	<File name="SPL\inc\stm32f37x_misc.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2525" topLine="74" />
+		</Cursor>
+	</File>
+	<File name="SPL\inc\stm32f37x_rcc.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="18388" topLine="427" />
+		</Cursor>
+	</File>
+	<File name="SPL\inc\stm32f37x_tim.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="25070" topLine="581" />
+		</Cursor>
+	</File>
+	<File name="SPL\src\stm32f37x_exti.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5894" topLine="140" />
+		</Cursor>
+	</File>
+	<File name="SPL\src\stm32f37x_gpio.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14549" topLine="384" />
+		</Cursor>
+	</File>
+	<File name="SPL\src\stm32f37x_misc.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5271" topLine="109" />
+		</Cursor>
+	</File>
+	<File name="SPL\src\stm32f37x_rcc.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="49842" topLine="1224" />
+		</Cursor>
+	</File>
+	<File name="SPL\src\stm32f37x_tim.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="89769" topLine="2344" />
+		</Cursor>
+	</File>
+	<File name="cmsis\core_cm4.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="36121" topLine="600" />
+		</Cursor>
+	</File>
+	<File name="inc\Button.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="69" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="inc\DS18B20.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="97" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="inc\encoder.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="38" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="inc\stm32f37x.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8815" topLine="165" />
+		</Cursor>
+	</File>
+	<File name="inc\system_stm32f37x.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="527" topLine="42" />
+		</Cursor>
+	</File>
+	<File name="src\Button.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3880" topLine="104" />
+		</Cursor>
+	</File>
+	<File name="src\DS18B20.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10246" topLine="389" />
+		</Cursor>
+	</File>
+	<File name="src\HD44780.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="268" topLine="8" />
+		</Cursor>
+	</File>
+	<File name="src\encoder.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1379" topLine="19" />
+		</Cursor>
+	</File>
+	<File name="src\main.c" open="1" top="1" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3495" topLine="100" />
+		</Cursor>
+	</File>
+	<File name="src\startup_stm32f37x.S" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10381" topLine="243" />
+		</Cursor>
+	</File>
+	<File name="src\system_stm32f37x.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6935" topLine="39" />
+		</Cursor>
+	</File>
+</EmBlocks_layout_file>
