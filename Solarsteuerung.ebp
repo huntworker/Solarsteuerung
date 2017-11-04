@@ -153,6 +153,7 @@
 		<Unit filename="inc\Button.h" />
 		<Unit filename="inc\DS18B20.h" />
 		<Unit filename="inc\HD44780.h" />
+		<Unit filename="inc\can.h" />
 		<Unit filename="inc\eeprom.h" />
 		<Unit filename="inc\encoder.h" />
 		<Unit filename="inc\stm32f37x.h" />
@@ -166,6 +167,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src\HD44780.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\can.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src\eeprom.c">

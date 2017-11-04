@@ -32,6 +32,7 @@ TIM14: OneWire
 #include "encoder.h"
 #include "Button.h"
 #include "eeprom.h"
+#include "can.h"
 
 
 #define EE_DATA_ADDRESS_CAN_LOW      0x1000
@@ -126,41 +127,43 @@ menue_t menue_points[] =
 };
 
 volatile uint32_t flags = 0;
-#define FLAG_BTN_UP   (1 << 0)
-#define FLAG_BTN_DOWN (1 << 1)
-#define FLAG_BTN_OK   (1 << 2)
-#define FLAG_PUMP_SOL (1 << 3)
-#define FLAG_PUMP_SP  (1 << 4)
-#define FLAG_PUMP_UMW (1 << 5)
-#define FLAG_MENU_UPD (1 << 6)
+#define FLAG_BTN_UP      (1 << 0)
+#define FLAG_BTN_DOWN    (1 << 1)
+#define FLAG_BTN_OK      (1 << 2)
+#define FLAG_PUMP_SOL    (1 << 3)
+#define FLAG_PUMP_SP     (1 << 4)
+#define FLAG_PUMP_UMW    (1 << 5)
+#define FLAG_MENU_UPD    (1 << 6)
+#define FLAG_CAN_TX_TEMP (1 << 15)
 
 volatile uint32_t lcd_timeout = 0;
 
 void SystickInit();
 void storeSettings(settings_t* settings);
 void readSettings(settings_t* settings);
+void can_send_temps(int32_t* temps);
 
 int main(void)
 {
     SystickInit();
 
-    FLASH_Unlock();
-    EE_Init();
+    //FLASH_Unlock();
+    //EE_Init();
     uint16_t data = 0;
 
     settings_t settings;
     settings.can_id = 0x40;
     settings.diff_col_sp = 3;
     settings.hyst_col_sp = 1;
-    settings.t_off_sp_lad = 65;
+    settings.t_off_sp_lad = 70;
     settings.t_off_umw = 75;
-    settings.t_on_sp_lad = 70;
+    settings.t_on_sp_lad = 75;
     settings.t_on_umw = 80;
 
-    if (EE_ReadVariable(VirtAddVarTab[EE_DATA_ADDRESS_CAN_HIGH], &data))
+    //if (EE_ReadVariable(VirtAddVarTab[EE_DATA_ADDRESS_CAN_HIGH], &data))
     {
         // variable bisher nicht bekannt
-        storeSettings(&settings);
+        //storeSettings(&settings);
     }
 
     // 5V EN
@@ -185,6 +188,8 @@ int main(void)
     encoder_init();
 
     Button_Init();
+
+    //my_can_init();
 
     char Buffer[20];
 
@@ -256,7 +261,7 @@ int main(void)
     menue_points_t actual_menue = MENUE_210; // Standardmenü
     int32_t temp[3] = {0};
 
-    readSettings(&settings);
+    //readSettings(&settings);
 
     flags |= FLAG_MENU_UPD;
 
@@ -491,6 +496,12 @@ int main(void)
             GPIO_SetBits(GPIOC, GPIO_Pin_13);
         else
             GPIO_ResetBits(GPIOC, GPIO_Pin_13);
+
+        if (flags & FLAG_CAN_TX_TEMP)
+        {
+            flags &= ~FLAG_CAN_TX_TEMP;
+            //can_send_temps(temp);
+        }
     }
 }
 
@@ -530,6 +541,7 @@ void SysTick_Handler(void)
         counter = 9;
         lcd_timeout++;
     }
+    flags |= FLAG_CAN_TX_TEMP;
 
 }
 
@@ -580,6 +592,26 @@ void readSettings(settings_t* settings)
     settings->t_on_sp_lad = (int16_t)var1;
     EE_ReadVariable(VirtAddVarTab[EE_DATA_ADDRESS_TON_UMW], &var1);
     settings->t_on_umw = (int16_t)var1;
+}
+
+void can_send_temps(int32_t* temps)
+{
+    uint8_t data[8];
+    data[0] = temps[0] & 0x00FF;
+    data[1] = ((temps[0] & 0x0100) >> 8) | ((temps[1] & 0x00FE) << 1);
+    data[2] = ((temps[1] & 0x0100) >> 7) | ((temps[2] & 0x00FC) << 2);
+    data[3] = ((temps[2] & 0x0100) >> 6);
+    data[4] = 0;
+    data[5] = 0;
+    data[6] = 0;
+    data[7] = 0;
+    if (flags & FLAG_PUMP_SP)
+        data[7] |= (1 << 0);
+    if (flags & FLAG_PUMP_UMW)
+        data[7] |= (1 << 1);
+    if (flags & FLAG_PUMP_SOL)
+        data[7] |= (1 << 2);
+    my_can_send(8, data, 0x00007000);
 }
 
 /*void HardFault_Handler()

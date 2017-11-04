@@ -12,4 +12,4 @@ obj\debug\src\main.o: src\main.c inc/stm32f37x_conf.h \
  SPL\inc/stm32f37x_spi.h SPL\inc/stm32f37x_tim.h \
  SPL\inc/stm32f37x_usart.h SPL\inc/stm32f37x_wwdg.h \
  SPL\inc/stm32f37x_misc.h inc/HD44780.h inc/DS18B20.h inc/encoder.h \
- inc/Button.h inc/eeprom.h inc/stm32f37x.h
+ inc/Button.h inc/eeprom.h inc/stm32f37x.h inc/can.h
